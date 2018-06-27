@@ -3,7 +3,7 @@
 
 <h1 align="center">
   <br>
-  <img src="https://github.com/Southerngirl13/project-3-fitlife/blob/master/client/src/assets/images/fl-yellow2.png" width="60%">
+  <img src="https://github.com/Southerngirl13/project-3-fitlife/blob/master/client/src/assets/images/fl-yellow2.png" width="40%">
 </h1>
 
 ### OVERVIEW
