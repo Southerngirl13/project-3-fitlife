@@ -1,6 +1,5 @@
 # Project3
 
-
 <h1 align="center">
   <br>
   <img src="https://github.com/Southerngirl13/project-3-fitlife/blob/master/client/src/assets/images/test3.jpg" width="40%">
