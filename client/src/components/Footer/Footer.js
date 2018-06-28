@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => (
   <footer className="footer">
-    <span>FitLife 2018</span>
+    <span>Pupster 2017</span>
   </footer>
 );
 
