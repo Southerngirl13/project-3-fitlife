@@ -36,7 +36,7 @@ const About = () => (
           <p>
           Build winners safely
           Make better coaching decisions by using a holistic approach
-          to workload management and injury prevention.
+          to workload management and injury prevention.  blah blah
 
           Centralize everything
 Collect and manage athlete data easily, instantly and remotely. Everyone stores and retrieves their data in the same accessible place.
