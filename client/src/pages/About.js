@@ -23,7 +23,7 @@ const About = () => (
           Monitor, Understand, Optimize
           Optimize key aspects of your athletes’ preparation 
           and keep them fit, healthy, happy, and ready to win. Cost-effectively. From youth to pro.
-          Engage Everyone
+          Engage Everyone blah blah
           Get the whole team connected as you increase collaboration, communication and compliance for the greater good.
           Gain insight
           Enjoy a dashboard view of everything that counts, featuring evidence-based stats, analysis, alerts, graphs, reports, recommendations, and more.
