@@ -16,7 +16,7 @@ import "./Nav.css";
 const Nav = props => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <Link className="navbar-brand" to="/">
-      FitLife
+      Fit Life
     </Link>
     <div>
       <ul className="navbar-nav">
@@ -54,6 +54,30 @@ const Nav = props => (
         >
           <Link to="/search" className="nav-link">
             Search
+          </Link>
+        </li>
+
+         <li
+          className={
+            window.location.pathname === "/SignIn-Register"
+              ? "nav-item active"
+              : "nav-item"
+          }
+        >
+          <Link to="/search" className="nav-link">
+            Sign-In/Register
+          </Link>
+        </li>
+
+         <li
+          className={
+            window.location.pathname === "/Contact"
+              ? "nav-item active"
+              : "nav-item"
+          }
+        >
+          <Link to="/search" className="nav-link">
+            Contact
           </Link>
         </li>
         

@@ -4,6 +4,10 @@ import Books from "./pages/Books";
 import Detail from "./pages/Detail";
 import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
+import About from "./pages/About";
+import Footer from "./components/Footer";
+
+
 
 const App = () => (
   <Router>
@@ -12,9 +16,11 @@ const App = () => (
       <Switch>
         <Route exact path="/" component={Books} />
         <Route exact path="/books" component={Books} />
+        <Route exact path="/" component={About} />
         <Route exact path="/books/:id" component={Detail} />
         <Route component={NoMatch} />
       </Switch>
+      <Footer />
     </div>
   </Router>
 );
