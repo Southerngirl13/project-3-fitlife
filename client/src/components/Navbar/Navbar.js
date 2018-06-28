@@ -30,7 +30,7 @@ const Navbar = props => (
           }
         >
           <Link to="/discover" className="nav-link">
-            Discover
+         Sign In / Register
           </Link>
         </li>
         <li
@@ -41,7 +41,7 @@ const Navbar = props => (
           }
         >
           <Link to="/search" className="nav-link">
-            Search
+      Contact
           </Link>
         </li>
       </ul>

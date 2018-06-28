@@ -18,39 +18,37 @@ const About = () => (
       </Row>
       <Row>
         <Col size="md-12">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet diam tortor, id
-            consequat mauris ullamcorper eu. Orci varius natoque penatibus et magnis dis parturient
-            montes, nascetur ridiculus mus. Pellentesque et dui id justo finibus sollicitudin at et
-            metus. Ut feugiat tellus nec metus commodo, sed suscipit nisi gravida. Duis eget
-            vestibulum quam, ut porttitor sem. Donec sagittis mi sollicitudin turpis semper, et
-            interdum risus lobortis. Vestibulum suscipit nunc non egestas tristique. Proin hendrerit
-            efficitur malesuada. Mauris lorem urna, sodales accumsan quam non, tristique tempor
-            erat. Nullam non sem facilisis, tempus tortor sit amet, volutpat nisl. Ut et turpis non
-            nunc maximus mollis a vitae tortor. Pellentesque mattis risus ac quam laoreet cursus.
-            Praesent suscipit orci neque, vestibulum tincidunt augue tincidunt non. Duis consequat
-            mattis tortor vitae mattis.
+        <p>
+          Create excellence. Easily.
+          Monitor, Understand, Optimize
+          Optimize key aspects of your athletes’ preparation 
+          and keep them fit, healthy, happy, and ready to win. Cost-effectively. From youth to pro.
+          Engage Everyone
+          Get the whole team connected as you increase collaboration, communication and compliance for the greater good.
+          Gain insight
+          Enjoy a dashboard view of everything that counts, featuring evidence-based stats, analysis, alerts, graphs, reports, recommendations, and more.
+          Identify issues
+          Identify tired and at-risk athletes in real-time and make adequate workload adjustments to minimize the risk of injury and illness.
+          Get results
+          Keep everyone healthy, working their hardest, happy and motivated, ready to perform at their best.
+
           </p>
           <p>
-            Phasellus at rutrum nisl. Praesent sed massa ut ipsum bibendum porttitor. Sed malesuada
-            molestie velit ac viverra. Quisque a ullamcorper purus. Curabitur luctus mi ac mi
-            hendrerit semper. Nulla tincidunt accumsan lobortis. Mauris convallis sapien non nibh
-            porta accumsan. Nunc volutpat tempus porttitor. Nunc congue dictum egestas. Aliquam
-            blandit mi eu urna scelerisque, vitae volutpat ligula ultricies. Maecenas vel porta
-            augue. Fusce mauris ex, dignissim et lacinia ut, tempus eget nibh.
+          Build winners safely
+          Make better coaching decisions by using a holistic approach
+          to workload management and injury prevention.
+
+          Centralize everything
+Collect and manage athlete data easily, instantly and remotely. Everyone stores and retrieves their data in the same accessible place.
+
+Stay informed and focused
+Take advantage of automated analysis, alerts, recommendations & reports to motivate, inform, prevent issues and promote excellence at all levels.
           </p>
           <p>
-            Etiam ut massa efficitur, gravida sapien non, condimentum sapien. Suspendisse massa
-            tortor, facilisis in neque sit amet, scelerisque elementum tortor. Nullam eget nibh sit
-            amet odio lobortis ullamcorper. Nulla bibendum magna nec sem pulvinar lobortis. Mauris
-            et imperdiet urna, vitae lobortis dui. Nunc elementum elit mi, non mattis enim congue
-            at. Proin mi lectus, ullamcorper id hendrerit eu, ultricies vitae lacus. Nunc vehicula,
-            erat eget laoreet condimentum, felis ante malesuada leo, nec efficitur diam nisi eget
-            nisi. Cras arcu lacus, tristique in bibendum vitae, elementum eget lorem. Maecenas
-            vestibulum volutpat orci eu pharetra. Praesent vel blandit ante, nec faucibus libero.
-            Sed ultrices lorem ex, eu facilisis libero convallis ac. Vivamus id dapibus eros. Nullam
-            tempor sem rhoncus porta semper. Proin bibendum vulputate nisl, fringilla interdum elit
-            pulvinar eu. Quisque vitae quam dapibus, vestibulum mauris quis, laoreet massa.
+          Streamline record keeping
+Say goodbye to notepads & spreadsheets as you manage athlete data & records online in seconds. Store athlete data, docs, videos, medical records, testing results and more.
+Save money
+With the AthleteMonitoring.com modular structure you pay only for the features you need, so you can keep your performance program as cost-effective as possible.
           </p>
         </Col>
       </Row>
