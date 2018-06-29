@@ -27,7 +27,15 @@
 }
 
 .hero h1 {
-  font-size: 60px;
-  padding-top: 140px;
+  font-size: 80px;
+  letter-spacing: 1px;
+  padding-top: 300px;
   margin-top: 0;
+}
+
+.hero h2 {
+  letter-spacing: 2px;
+  font-family: fantasy;
+  font-weight: 100;
+  padding-top: 10pt;
 }

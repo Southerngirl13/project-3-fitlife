@@ -1,3 +1,29 @@
-nav.navbar.navbar-default {
+.nav.navbar.navbar-default {
   margin-bottom: 0;
+  background-color: #fbc800;
+}
+
+a.nav-link {
+  font-size: 16pt;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aquamarine;
+  align-content: right;
+}
+
+.navbar-brand {
+  background-color: rgb(202, 17, 17);
+  font-size: 24pt;
+}
+
+.bg-light {
+  background-color: blueviolet;
+}
+
+.navbar {
+  background-color: blue;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light {
+  background-color: aquamarine;
 }
