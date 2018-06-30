@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import SignIn from "./components/SignIn";
 import SignUp from "./components/SignUp";
+import DashBoard from "./pages/Dashboard";
 
 
 const App = () => (
