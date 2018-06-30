@@ -1,0 +1,14 @@
+/* #form {
+  align-content: center;
+  margin: 50px;
+} */
+
+.signInContainer {
+    align-content: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
+}
