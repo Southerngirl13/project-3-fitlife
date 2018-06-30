@@ -1,3 +1,15 @@
 h1 {
-    font-size: 200pt;
+    /* this is the title on homepage column section for Welcome to Fit Life */
+    font-size: 40pt;
+    padding-bottom: 0pt;
+    padding-top: 0pt;
+    font-family: "HCo Verlag","CenturyGothic",AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+    font-weight: 150;
+    letter-spacing: -.5pt;
+}
+
+p {
+    /* this is home page paragraph size */
+    font-size: 14pt;
+    padding-top: 20pt;
 }
