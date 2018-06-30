@@ -5,6 +5,8 @@
   <img src="https://github.com/Southerngirl13/project-3-fitlife/blob/master/client/src/assets/images/test3.jpg" width="40%">
 </h1>
 
+To visit deployed application, go to https://group-project-3.herokuapp.com/
+
 ### OVERVIEW
 Our app is a web-based athlete management software solution. Upon registration and login, user’s arrive at their dashboard. The dashboard has several capabilities (“tabs”):
 1.    Baseline Photos/videos: ie before/after photo and user uploaded movement video (for example them performing an exercise movement)

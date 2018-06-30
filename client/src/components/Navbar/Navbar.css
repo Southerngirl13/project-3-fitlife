@@ -1,3 +1,42 @@
-nav.navbar.navbar-default {
+/*  don't know what this does - when deleted, nothing changes  */
+.nav.navbar.navbar-default {
   margin-bottom: 0;
+  background-color: #fbc800;
+}
+
+/*  this is the nav topics section */
+a.nav-link {
+  font-size: 16pt;
+  font-weight: 400;
+  font-family: "HCo Verlag","CenturyGothic",AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+  float: right;
+}
+
+/* This is the left side portion with FIT LIFE - or logo - need to add our logo there*/
+.navbar-brand {
+  font-size: 24pt;
+  padding-right: 0pt;
+  padding-left: 10pt;
+}
+
+/* Don't know what (if anything) this does */
+.bg-light {
+  background-color: blueviolet;
+}
+
+/* Don't know what (if anything) this does */
+.navbar {
+  background-color: blue;
+}
+
+/* Don't know what (if anything) this does */
+.navbar navbar-expand-lg navbar-light bg-light {
+  background-color: aquamarine;
+  text-align: right;
+}
+
+/* Don't know what (if anything) this does */
+navbar-nav {
+  background-color: chartreuse;
+  text-align: right;
 }
