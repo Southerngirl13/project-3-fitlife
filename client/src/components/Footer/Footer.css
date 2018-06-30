@@ -1,3 +1,4 @@
+/* this is the band above the footer - don't understand what purpose it serves but using it currently as a color band */
 .footer {
   min-height: 50px;
   background:#fbc800;
@@ -12,5 +13,5 @@
   right: 0;
   padding: 3px;
   background: white;
-  text-align:center;
+  text-align: center;
 }
