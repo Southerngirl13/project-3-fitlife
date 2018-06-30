@@ -1,7 +1,9 @@
+/* this is the band above the footer - don't understand what purpose it serves but using it currently as a color band */
 .footer {
-  min-height: 100px;
-  background: #E5E5E5;
+  min-height: 50px;
+  background:#fbc800;
   position: relative;
+  font-size: 14pt;
 }
 
 .footer span {
@@ -10,5 +12,6 @@
   left: 0;
   right: 0;
   padding: 3px;
-  background: #B8B8B8;
+  background: white;
+  text-align: center;
 }
