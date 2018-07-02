@@ -1,9 +1,12 @@
+h4 {
+    text-align: center;
+}
 
-.signInContainer {
+.signUpContainer {
     top: 40%;
     left: 50%;
     width:30em;
-    height:18em;
+    height:26em;
     margin: auto; 
     margin-top: 25px;
     padding: 5px;
