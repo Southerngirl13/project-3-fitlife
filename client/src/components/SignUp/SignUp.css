@@ -6,10 +6,19 @@ h4 {
     top: 40%;
     left: 50%;
     width:30em;
-    height:26em;
+    height: 30em;
     margin: auto; 
     margin-top: 25px;
-    padding: 5px;
-    border: 2px solid gray;
-    background-color:whitesmoke;
+    margin-bottom: 25px;
+    padding: 50px;
+    border: 0px solid gray;
+    background-color:#fcc900;
+}
+
+.signUpHeader {
+margin-top: 20px;
+}
+
+.signUpContainer {
+    background-image: 
 }
