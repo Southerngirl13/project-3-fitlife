@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import KJS from "./pages/KJS";
+
+
 /*import Search from "./pages/Search"; */
 import Blog from "./components/Blog";
 import Navbar from "./components/Navbar";

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+import logo from "./logo.png";
 import "./SignUp.css";
+
 
 export default class SignUp extends Component {
     state = {
@@ -10,6 +12,9 @@ export default class SignUp extends Component {
         return (
             <div>
             <h4 className="signUpHeader">Enter Your Information Below to Sign Up!</h4>
+            <div>
+            <img class="logo" src={logo} alt={"logo"} style={{ height: 590, flex: 1, width: undefined, padding: 0 }}/>
+          
                 <div className="signUpContainer">
                     {/* <form id='form'>       
                       <input className='input' type="text"   
@@ -22,6 +27,7 @@ export default class SignUp extends Component {
                        placeholder="Password"/>
                       <button id='submit'>Sign Up</button>
                   </form> */}
+                 
                     <form>
                         <div className="form-group">
                             <label className="firstName" for="exampleInputFirstName">First Name</label>
@@ -39,8 +45,9 @@ export default class SignUp extends Component {
                             <label for="exampleInputPassword1">Password</label>
                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
                         </div>
-                        <button type="submit" class="btn btn-warning">Sign Up</button>
+                        <button type="submit" class="btn btn-secondary">Sign Up</button>
                     </form>
+                </div>
                 </div>
             </div>
         )
