@@ -133,7 +133,6 @@ class SignIn extends Component {
       isLoading: true,
     });
 
-<<<<<<< Updated upstream
     // Post request to backend
     fetch('/api/account/signin', {
       method: 'POST',
@@ -274,40 +273,3 @@ class SignIn extends Component {
 }
 
 export default SignIn;
-=======
-    render() {
-        return (
-            <div>
-                {/* //     <div className="signInContainer">
-            //     <form id='form' align="center">               
-            //           <input className='input' type="text"   */}
-                {/* //            placeholder="Email"/>           */}
-                {/* //           <input className='input' type="password"  */}
-                {/* //            placeholder="Password"/>
-            //           <button id='submit'>Sign In</button>
-            //       </form> */}
-                {/* //       </div> */}
-
-                <h4 className="signInHeader">Enter Your Credentials Below to Sign In!</h4>
-                <div className="signInContainer">
-                    <form>
-                        <div className="form-group">
-                            <label className="signIn" for="exampleInputEmail1">Email address</label>
-                            <input className="emailInput" type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
-                        </div>
-                        <div className="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
-                        </div>
-                        <div className="form-check">
-                            <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                            <label className="form-check-label" for="exampleCheck1">Remember Me!</label>
-                        </div>
-                        <button type="submit" className="btn btn-warning">Sign In</button>
-                    </form>
-                </div>
-            </div>
-        )
-    }
-}
->>>>>>> Stashed changes

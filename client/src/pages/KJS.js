@@ -9,51 +9,46 @@ const KJS = () => (
  <div>
 working on bmi calculator
 
-<<<<<<< Updated upstream
  </div>
 
 
-   /*}   
+   }   
 class BMI extends Component {
   constructor(){
     super();
-  */
-/* 
+  
+
     this.state = {
       heightFeet: '',
       heightInch: '',
       weight: '',
     }
-  */
-/*
+  
+
     this.handleHeightFeetChange = this.handleHeightFeetChange.bind(this);
     this.handleHeightInchChange = this.handleHeightInchChange.bind(this);
     this.handleWeightChange = this.handleWeightChange.bind(this);
     this.calculateBMI = this.calculateBMI.bind(this);
   }
-*/
-/*
+
   handleHeightFeetChange(event){
     this.setState({
       heightFeet: event.target.value
     });
   }
-*/
-/*
+
   handleHeightInchChange(event){
     this.setState({
       heightInch: event.target.value
     });
   }  
-*/
-/*
+
   handleWeightChange(event){
     this.setState({
       weight: event.target.value
     });
   }
-*/
-/*
+
   calculateBMI(){
     if (this.state.weight && this.state.heightFeet && this.state.heightInch){
       // BMI Formula = (WEIGHT[in pounds] / (HEIGHT[in inches] * HEIGHT[in inches])) * 703;
@@ -69,7 +64,6 @@ class BMI extends Component {
 
       let bmi = (weight / (height * height)) * 703;
           bmi = bmi.toFixed(2);
-=======
 const Practice = () => (
   <div>
     <Container style={{ marginTop: 40 }}>
@@ -83,13 +77,11 @@ const Practice = () => (
     </Container>
   </div>
 );
->>>>>>> Stashed changes
 
       return bmi;
     }
   }
-*/
-/*
+
   getBMIResults(bmi){
     let bmiResults = {
       label: '',
@@ -118,8 +110,7 @@ const Practice = () => (
 
     return bmiResults;
   }
-*/
-/*
+
   render() {
 
     let bmi = this.calculateBMI();
@@ -139,6 +130,5 @@ function BmiDisplay(props){
     </div> 
   )
 }
-*/
-);
+
 export default KJS;

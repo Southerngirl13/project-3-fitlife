@@ -9,7 +9,6 @@ h4 {
     height: 30em;
     margin: auto; 
     margin-top: 25px;
-<<<<<<< Updated upstream
     margin-bottom: 25px;
     padding: 50px;
     border: 0px solid gray;
@@ -22,13 +21,4 @@ margin-top: 20px;
 
 .signUpContainer {
     background-image: 
-=======
-    padding: 5px;
-    border: 2px solid gray;
-    background-color:whitesmoke;
-}
-
-.btn {
-    background-color: #fac82d;
->>>>>>> Stashed changes
 }
