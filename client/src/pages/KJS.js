@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import AssessmentForm from "../components/Assessment";
 
 const KJS = () => (
 
@@ -11,47 +12,43 @@ working on bmi calculator
  </div>
 
 
-   /*}   
+   }   
 class BMI extends Component {
   constructor(){
     super();
-  */
-/* 
+  
+
     this.state = {
       heightFeet: '',
       heightInch: '',
       weight: '',
     }
-  */
-/*
+  
+
     this.handleHeightFeetChange = this.handleHeightFeetChange.bind(this);
     this.handleHeightInchChange = this.handleHeightInchChange.bind(this);
     this.handleWeightChange = this.handleWeightChange.bind(this);
     this.calculateBMI = this.calculateBMI.bind(this);
   }
-*/
-/*
+
   handleHeightFeetChange(event){
     this.setState({
       heightFeet: event.target.value
     });
   }
-*/
-/*
+
   handleHeightInchChange(event){
     this.setState({
       heightInch: event.target.value
     });
   }  
-*/
-/*
+
   handleWeightChange(event){
     this.setState({
       weight: event.target.value
     });
   }
-*/
-/*
+
   calculateBMI(){
     if (this.state.weight && this.state.heightFeet && this.state.heightInch){
       // BMI Formula = (WEIGHT[in pounds] / (HEIGHT[in inches] * HEIGHT[in inches])) * 703;
@@ -67,12 +64,24 @@ class BMI extends Component {
 
       let bmi = (weight / (height * height)) * 703;
           bmi = bmi.toFixed(2);
+const Practice = () => (
+  <div>
+    <Container style={{ marginTop: 40 }}>
+      <Row>
+        <Col size="md-12">
+          <h3>Practice Page for Components</h3> 
+          <AssessmentForm />        
+        </Col>
+      </Row>
+   
+    </Container>
+  </div>
+);
 
       return bmi;
     }
   }
-*/
-/*
+
   getBMIResults(bmi){
     let bmiResults = {
       label: '',
@@ -101,8 +110,7 @@ class BMI extends Component {
 
     return bmiResults;
   }
-*/
-/*
+
   render() {
 
     let bmi = this.calculateBMI();
@@ -122,6 +130,5 @@ function BmiDisplay(props){
     </div> 
   )
 }
-*/
-);
+
 export default KJS;
