@@ -42,7 +42,6 @@ const BMI = props => {
             </form>
           </div>
 
-          
 
         </div>
       </div>

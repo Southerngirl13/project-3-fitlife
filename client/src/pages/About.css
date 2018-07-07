@@ -1,0 +1,31 @@
+.text-center {
+margin-top: 0px;
+}
+
+.gsbtn {
+
+margin-top: 30px;
+font-size: 20px;
+}
+
+.hey {
+   margin-top: 50px;
+   font-family: "HCo Verlag","CenturyGothic",AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
+   font-weight: 150;
+    letter-spacing: -.5pt;
+    font-size: 44px;
+}
+
+.aboutlogo {
+    margin-top: 20px;
+    margin-left: -130px;
+    }
+
+.title {
+    margin-top: 200px;
+    font-size: 55px;
+}    
+
+.firstline {
+    margin-top: 80px;
+}
