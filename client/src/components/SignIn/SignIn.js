@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import 'whatwg-fetch';
 import "./SignIn.css";
 
+import logo from "./CA1.jpg";
+
 import {
   getFromStorage,
   setInStorage,
@@ -211,8 +213,9 @@ class SignIn extends Component {
 
     if (!token) {
       return (
-        <div className="form">
-          <div>
+        <div className="form">       
+         <img className="CA1" src={logo} alt={"logo"} style={{ height: undefined, flex: 1, width: 1500, padding: 0 }}/>       
+         <div>
             {
               (signInError) ? (
                 <p>{signInError}</p>
@@ -226,6 +229,7 @@ class SignIn extends Component {
               onChange={this.onTextboxChangeSignInEmail}
             />
             <br />
+            <br />
             <input
               type="password"
               placeholder="Password"
@@ -233,6 +237,8 @@ class SignIn extends Component {
               onChange={this.onTextboxChangeSignInPassword}
             />
             <br />
+            <br />
+            
             <button onClick={this.onSignIn}>Sign In</button>
           </div>
           <br />
@@ -243,19 +249,22 @@ class SignIn extends Component {
                 <p>{signUpError}</p>
               ) : (null)
             }
-            <p className="signup">Don't have an account? Create one</p>
+            <p className="signup">Don't have an account? Create one.</p>
             <input
               type="email"
               placeholder="Email"
               value={signUpEmail}
               onChange={this.onTextboxChangeSignUpEmail}
             /><br />
+              <br />
+            
             <input
               type="password"
               placeholder="Password"
               value={signUpPassword}
               onChange={this.onTextboxChangeSignUpPassword}
             /><br />
+            <br />
             <button onClick={this.onSignUp}>Sign Up</button>
           </div>
 

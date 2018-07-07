@@ -1,61 +1,65 @@
-  
-    /* This is VIP */
-    .flex-container {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      justify-content: center;
-     /* background-color: rgb(243, 240, 240); */
-    }
+  /* This is VIP */
 
-    /* This VIP */
-    .item {
-      position: relative;
-      display: flex;
-      height: 300px;
-      width: 400px;
-      margin: 20px;
-      flex-direction: column;
-      flex-wrap: wrap;
-      /* background-color: red; */
-    }
-    
-/* VIP for not warping image size */
-    .thumb {
-      display: block;
-      width: 100%;
-      height: auto;
-      transition: .5s ease;
-      background-color: purple;
-    }
-  
-    /* This is VIP - holds the overlay controls */
-    .blog-overlay {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 100%;
-      width: 100%;
-      opacity: 0;
-      transition: .3s ease;
-      background-color: #fbc800;
-      /*border-radius: 5px; */
-    }
-   
-    /*  Need this or overlay goes away altogether */
-    .item:hover .blog-overlay {
-      height: 100%;
-      opacity: 1;
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(243, 240, 240); */
+  }
 
-    }
+  /* This VIP */
 
-   /* This changed the placement of all the text on overlay - VIP */
-   .text {
+  .item {
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* background-color: red; */
+  }
+
+  /* VIP for not warping image size */
+
+  .thumb {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    background-color: purple;
+  }
+
+  /* This is VIP - holds the overlay controls */
+
+  .blog-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: #fbc800;
+    /*border-radius: 5px; */
+  }
+
+  /*  Need this or overlay goes away altogether */
+
+  .item:hover .blog-overlay {
+    height: 100%;
+    opacity: 1;
+  }
+
+  /* This changed the placement of all the text on overlay - VIP */
+
+  .text {
     white-space: nowrap;
     color: white;
-    /* color: #40484b; */
+    color: #40484b;
     font-size: 20px;
     text-align: center;
     position: absolute;
@@ -67,7 +71,22 @@
     /* background-color: pink; */
   }
 
-/*  This didn't really change much when I took it away
+  .blogh3, h3 {
+    background-color: aqua;
+    font-size: 50px;
+    font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 150;
+    letter-spacing: -.5pt;
+  }
+
+  .blogp {
+    background-color: blue;
+    font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 150;
+    letter-spacing: -.5pt;
+  }
+
+  /*  This didn't really change much when I took it away
     .overlay {
       position: absolute;
       bottom: 100%;
@@ -82,14 +101,14 @@
     }
     */
 
-    /* This didn't really change much when I took it away
+  /* This didn't really change much when I took it away
     .item:hover .overlay {
       bottom: 0;
       height: 100%;
     }
     */
 
-    /*
+  /*
       .blog-overlay p, a {
         font-size: 10px;
         line-height: 10px;
@@ -101,32 +120,29 @@
         height: 100%;
         background-color: aqua;
       }
-    */ 
+    */
 
-    /*
+  /*
     .section {
       padding: 25px;
     }
     */
-    /*
+
+  /*
     .section-paragraph {
       margin-right: 50px;
       margin-left: 50px;
     }
     */
-  
 
-   /*  Taking this away didn't change anything much
+  /*  Taking this away didn't change anything much
     .item:hover .thumb {
       width: 100%;
       height: auto;
     }
     */
- 
-    
-    /* entire blog section 
+
+  /* entire blog section 
     .Blog {
 
     } */
-    
-    

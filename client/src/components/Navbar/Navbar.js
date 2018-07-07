@@ -8,7 +8,7 @@ import logo from "./logo.png";
 const Navbar = props => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <Link className="navbar-brand" to="/">
-   <img class="logo" src={logo} alt={"logo"} style={{ height: 90, flex: 1, width: null  }}/> 
+   <img class="logo" src={logo} alt={"logo"} style={{ height: 80, flex: 1, width: null  }}/> 
       {/* Fit Life */}
     </Link>
     <div>
