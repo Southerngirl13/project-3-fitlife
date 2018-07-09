@@ -18,7 +18,6 @@
     margin: 20px;
     flex-direction: column;
     flex-wrap: wrap;
-    /* background-color: red; */
   }
 
   /* VIP for not warping image size */
@@ -28,7 +27,6 @@
     width: 100%;
     height: auto;
     transition: .5s ease;
-    background-color: purple;
   }
 
   /* This is VIP - holds the overlay controls */
@@ -72,77 +70,19 @@
   }
 
   .blogh3, h3 {
-    background-color: aqua;
-    font-size: 50px;
+
+    font-size: 30px;
     font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
     font-weight: 150;
     letter-spacing: -.5pt;
   }
 
   .blogp {
-    background-color: blue;
     font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
     font-weight: 150;
     letter-spacing: -.5pt;
   }
-
-  /*  This didn't really change much when I took it away
-    .overlay {
-      position: absolute;
-      bottom: 100%;
-      left: 0;
-      right: 0;
-      background-color: white;
-      opacity: .9;
-      overflow: hidden;
-      width: 100%;
-      height:0;
-      transition: .5s ease;
-    }
-    */
-
-  /* This didn't really change much when I took it away
-    .item:hover .overlay {
-      bottom: 0;
-      height: 100%;
-    }
-    */
-
-  /*
-      .blog-overlay p, a {
-        font-size: 10px;
-        line-height: 10px;
-     
-      }
- /*   
-      .item:hover .overlay {
-        bottom: 0;
-        height: 100%;
-        background-color: aqua;
-      }
-    */
-
-  /*
-    .section {
-      padding: 25px;
-    }
-    */
-
-  /*
-    .section-paragraph {
-      margin-right: 50px;
-      margin-left: 50px;
-    }
-    */
-
-  /*  Taking this away didn't change anything much
-    .item:hover .thumb {
-      width: 100%;
-      height: auto;
-    }
-    */
-
-  /* entire blog section 
-    .Blog {
-
-    } */
+/* 
+  .pcopy, p {
+    color: white;
+  } */
