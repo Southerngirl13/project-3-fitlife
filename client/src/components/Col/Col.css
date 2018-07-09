@@ -1,5 +1,6 @@
-h1 {
-    /* this is the title on homepage column section for Welcome to Fit Life */
+
+ /* this is the title on homepage column section for Welcome to Fit Life */
+    h1 {
     font-size: 40pt;
     padding-bottom: 0pt;
     padding-top: 0pt;
@@ -9,7 +10,7 @@ h1 {
 }
 
 p {
-    /* this is home page paragraph size */
     font-size: 14pt;
     padding-top: 20pt;
 }
+ /* this is home page paragraph size */
