@@ -1,0 +1,63 @@
+.text-center {
+    margin-top: 0px;
+}
+
+.gsbtn {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.hey {
+    margin-top: 50px;
+    font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 150;
+    letter-spacing: -.5pt;
+    font-size: 44px;
+}
+
+.aboutlogo {
+    margin-top: 50px;
+    margin-left: -130px;
+}
+
+.hometitle {
+    margin-top: 270px;
+    font-size: 55px;
+}
+
+.firstline {
+    margin-top: 80px;
+    color: #6a777f;
+}
+
+.flfeatures {
+    background-color: #fac82d;
+    text-align: center;
+    margin-top: 60px;
+    padding: 30px;
+    margin-bottom: 50px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.name, p {
+    text-align: center;
+    color: #6a777f;
+}
+
+.membercopy, p {
+    text-align: center;
+}
+
+#teamcol {
+    align-content: center;
+}
+
+.explain {
+    color: #91a2aa;
+    margin-top: -40px;
+}
+
+.pic {
+    margin-left: 30px;
+}
