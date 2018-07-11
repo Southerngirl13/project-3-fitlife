@@ -41,19 +41,19 @@ const Contact = () => (
         <Col id="teamcol" size="md-4">
           <img className="memberimg" src={cece} alt={"cece"} style={{ height: 120, flex: 1, width: undefined, padding: 0 }} />
           <p className="memname">Cecillia Medina</p>
-          <div className="membercopy"><p> <li>Sign-In Authentication Logic</li><li>Image Upload Logic</li> </p></div>
+          <div className="membercopy"><p> <li>Sign-In Authentication</li><li>Image Upload Page</li> </p></div>
           <hr className="memberhr"/>
         </Col>
         <Col id="teamcol" size="md-4">
           <img className="memberimg" src={sam} alt={"sam"} style={{ height: 120, flex: 1, width: undefined, padding: 0 }} />
           <p className="memname">Samantha Olvera</p>
-          <div className="membercopy"><p> <li>Assessment & Sign-In Logic</li><li>Front-End Development</li> </p></div>
+          <div className="membercopy"><p> <li>Assessment & Sign-In Pages</li><li>Front-End Development</li> </p></div>
           <hr className="memberhr"/>
         </Col>
        <Col id="teamcol" size="md-4">
           <img className="memberimg" src={kim} alt={"kim"} style={{ height: 120, flex: 1, width: undefined, padding: 0 }} />
           <p className="memname">Kimberly Swope</p>
-          <div className="membercopy"><p> <li>Recipe & Inspiration API Logic</li><li>Front-End Development</li> </p></div>
+          <div className="membercopy"><p> <li>Recipe, Nutrition & Quote API Pages</li><li>Front-End Development</li> </p></div>
           <hr className="memberhr"/>
         </Col>
 </Row>
@@ -61,13 +61,13 @@ const Contact = () => (
 <Col id="teamcol" size="md-4">
           <img className="memberimg" src={pranav} alt={"pranav"} style={{ height: 120, flex: 1, width: undefined, padding: 0 }} />
           <p className="memname">Pranav Udayakumar</p>
-          <div className="membercopy"><p> <li>E-Commerce Logic</li><li>Sign-In Authentication Support</li> </p></div>
+          <div className="membercopy"><p> <li>E-Commerce Storefront</li><li>Sign-In Authentication Support</li> </p></div>
           <hr className="memberhr"/>
         </Col>
         <Col id="teamcol" size="md-4">
           <img className="memberimg" src={jamar} alt={"jamar"} style={{ height: 120, flex: 1, width: undefined, padding: 0 }} />
           <p className="memname">Jamar Parham</p>
-          <div className="membercopy"><p> <li>React Video Component</li><li>Video Frame Logic</li> </p></div>
+          <div className="membercopy"><p> <li>React Video Component</li><li>Video Frame Page</li> </p></div>
           <hr className="memberhr"/>
         </Col>
        <Col id="teamcol" size="md-4">

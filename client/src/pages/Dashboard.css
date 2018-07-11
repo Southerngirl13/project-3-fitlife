@@ -1,0 +1,107 @@
+.herotitle {
+    font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-size: 75px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 150px;
+    color: white;
+    /* color: #40484b; */
+}
+
+.herotitle1 {
+    font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 50px;
+
+    color: #6a777f; 
+}
+
+.dashh3 {
+    font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #6a777f;
+    line-height: 1.35;
+}
+
+.wtfisthis p {
+    background-color: blue;
+    color: yellowgreen;
+}
+
+.wtfisthis {
+    color: #6a777f;
+}
+
+.dashtitle {
+    margin-top: 10px;
+    font-size: 55px;
+    background-color: pink;
+}
+
+.dashlogo {
+    margin-top: 30px;
+    margin-left: -130px;
+}
+
+.titletop {
+    text-align: center;
+    font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif; 
+    font-weight: 50;
+    font-size: 30px;
+    color: #40484b;
+    margin-top: 20px;
+}
+
+.subtitle {
+    text-align: center;  
+    font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    color: #91a2aa; 
+    margin-top: -40px;
+    font-size: 24px;
+}
+
+
+.hr-text {
+    width: 80%;
+    position: relative;
+    /* color: #fcfcfa; */
+    color: #efc82f;
+    float: center;
+    border-top: 3px double #8c8b8b;
+}
+
+.pquote {
+    color: #6a777f; 
+    font-size: 40px; 
+    margin-top: -10px;
+    /* font-family: 'Righteous', cursive; */
+    /* font-family: 'Gaegu', cursive; */
+    /* font-family: 'Satisfy', cursive;  */
+    /* font-family: 'Merienda', cursive; */
+    /* font-family: 'Indie Flower', cursive; */
+    /* font-family: 'Coming Soon', cursive; */
+    color: #efc82f;
+}
+
+.h4quote {
+    margin-top: 50px;
+    text-align: center;  
+    font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    color: #6a777f; 
+font-weight: 100;
+    font-size: 30px;
+}
+
+.signoff {
+    font-size: 25px;
+}
+
+.dashlogo2 {
+    margin-top: 10px;
+    margin-left: 510px;
+    margin-bottom: 0px;
+}
+

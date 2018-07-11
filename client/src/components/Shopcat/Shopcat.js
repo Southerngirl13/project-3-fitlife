@@ -4,7 +4,7 @@ import granola from './granola.jpg';
 import bars from './bars.jpg';
 import butter from './butter.jpg';
 import sweets from './sweets.jpg';
-import shakes from './shakes.png';
+import shakes from './shakes.jpg';
 import "./Shopcat.css";
 
 

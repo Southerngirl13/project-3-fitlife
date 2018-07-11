@@ -12,7 +12,7 @@ const Shop = () => (
     <div>
         <Hero backgroundImage={shakes}>
             <img className="shoplogo" src={logo} alt={"logo"} style={{ height: 0, flex: 1, width: undefined, padding: 0 }} />
-            <h2 className="shoptitle">Summertime Shake-A-Palooza!</h2><img className="aboutlogo" src={logo} alt={"logo"} style={{ height: 70, flex: 1, width: undefined, padding: 0 }} />
+            <h2 className="shoptitle">Summertime Shake-A-Palooza!</h2><img className="shoplogo" src={logo} alt={"logo"} style={{ height: 70, flex: 1, width: undefined, padding: 0 }} />
         </Hero>
         <Container style={{ marginTop: 40 }}>
             <Row className="specials"><h1 className="tagline">BUY ANY 2 SHAKE PACKS & SAVE </h1> </Row>
