@@ -21,7 +21,7 @@ const Dashboard = () => (
         <Container style={{ marginTop: 30 }}>
             <Row>
                 <Col size="md-12">
-                    <h1 className="herotitle1">Hi Kim. Welcome to Fit Life!</h1>
+                    <h1 className="herotitle1">Hi Kim.</h1><h1 className="welcome">Welcome to Fit Life!</h1>
                     <hr className="hr-text" />
                     <p className="titletop">This is where your customized programs live.</p>
                     <p className="subtitle">Simply click on what you want to access. </p>
