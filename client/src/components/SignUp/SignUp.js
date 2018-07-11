@@ -13,7 +13,7 @@ export default class SignUp extends Component {
     render() {
         return (
             <div><h4 className="signUpHeader">Enter Your Information Below to Sign Up! hey hey hey</h4><div>
-                    <img className="logo" src={logo} alt={"logo"} style={{ height: 590, flex: 1, width: undefined, padding: 0 }} />
+                    <img className="logo" src={logo} alt={"logo"} style={{ height: 90, flex: 1, width: undefined, padding: 0 }} />
 
                     <div className="signUpContainer">
                         {/* <form id='form'>       

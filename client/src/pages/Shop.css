@@ -19,7 +19,9 @@ md-12 {
 }
 
 .shoplogo {
-    margin-top: 0px;
+    margin-top: 10px;
+    align-content: center;
+    margin-right: 140px;
 }
 
 .gsbtn {
