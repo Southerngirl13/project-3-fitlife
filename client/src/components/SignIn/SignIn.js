@@ -3,7 +3,7 @@ import 'whatwg-fetch';
 import "./SignIn.css";
 import Dashboard from '../../pages/Dashboard'
 
-import logo from "./CA1.jpg";
+import yogaguy1 from "./yogaguy1.jpg";
 
 import {
   getFromStorage,
@@ -215,7 +215,7 @@ class SignIn extends Component {
     if (!token) {
       return (
         <div className="form">       
-         <img className="CA1" src={logo} alt={"logo"} style={{ height: undefined, flex: 1, width: 1500, padding: 0 }}/>       
+         <img className="yogaguy1" src={yogaguy1} alt={"logo"} style={{ height: undefined, flex: 1, width: 1500, padding: 0 }}/>       
          <div>
             {
               (signInError) ? (
