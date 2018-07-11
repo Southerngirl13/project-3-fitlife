@@ -3,6 +3,8 @@ import logo from "./logo.png";
 import "./SignUp.css";
 
 
+
+
 export default class SignUp extends Component {
     state = {
 
@@ -10,8 +12,8 @@ export default class SignUp extends Component {
 
     render() {
         return (
-            <div><h4 className="signUpHeader">Enter Your Information Below to Sign Up!</h4><div>
-                    <img className="logo" src={logo} alt={"logo"} style={{ height: 590, flex: 1, width: undefined, padding: 0 }} />
+            <div><h4 className="signUpHeader">Enter Your Information Below to Sign Up! hey hey hey</h4><div>
+                    <img className="logo" src={logo} alt={"logo"} style={{ height: 90, flex: 1, width: undefined, padding: 0 }} />
 
                     <div className="signUpContainer">
                         {/* <form id='form'>       
@@ -45,6 +47,7 @@ export default class SignUp extends Component {
                             </div>
                             <button type="submit" class="btn btn-secondary">Sign Up</button>
                         </form>
+                
                     </div>
                 </div>
             </div>

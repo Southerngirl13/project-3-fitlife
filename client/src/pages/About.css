@@ -16,17 +16,18 @@
 }
 
 .aboutlogo {
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: -130px;
 }
 
-.title {
-    margin-top: 310px;
+.hometitle {
+    margin-top: 270px;
     font-size: 55px;
 }
 
 .firstline {
     margin-top: 80px;
+    color: #6a777f;
 }
 
 .flfeatures {
@@ -41,7 +42,7 @@
 
 .name, p {
     text-align: center;
-    color: #40484b;
+    color: #6a777f;
 }
 
 .membercopy, p {

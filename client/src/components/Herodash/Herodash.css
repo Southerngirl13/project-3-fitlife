@@ -1,0 +1,25 @@
+.herodash {
+    height: 440px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .herodash::after {
+    content: "";
+    display: block;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+  }
+
+
+.herodash * {
+    position: relative;
+    z-index: 2;
+  }
+  

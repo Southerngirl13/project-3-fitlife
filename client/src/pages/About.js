@@ -6,7 +6,11 @@ import Col from "../components/Col";
 import logo from "./logo.png";
 import Blog from "../components/Blog";
 import "./About.css";
-
+import recipes from "../images/recipes.png";
+import workoutvid1 from "../images/workoutvid1.png";
+import shop from "../images/shop.png";
+import nutritioninfo from "../images/nutritioninfo.png";
+import tracker from "../images/tracker.png";
 import bald from "./bald.jpg";
 import maria from "../images/maria.gif";
 
@@ -16,8 +20,8 @@ import maria from "../images/maria.gif";
 const About = () => (
   <div>
     <Hero  backgroundImage={bald}> 
-     <img className="aboutlogo" src={logo} alt={"logo"} style={{ height: 120, flex: 1, width: undefined, padding: 0 }}/>
-      <h2 className="title">Get Healthy.  Feel Good.</h2>
+     <img className="aboutlogo" src={logo} alt={"logo"} style={{ height: 140, flex: 1, width: undefined, padding: 0 }}/>
+      <h2 className="hometitle">Get Healthy.  Feel Good.</h2>
     </Hero>   
     <Container className="container" style={{ marginTop: 40 }}>   
         <Row className="text-center"><h1 className="firstline">Welcome to Fit Life!</h1></Row>
@@ -49,26 +53,26 @@ const About = () => (
       <Container style={{ marginTop: 100 }}>    
       <Row> 
        <Col id="teamcol" size="md-4">
-       <img className="pic" src={maria} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
+       <img className="pic" src={tracker} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
           <p className="name">TRACKING TOOLS</p>
           <p className="explain">Blah blah blah blah blah blah blah blah blah blah</p>
           <hr />
         </Col>    
        <Col id="teamcol" size="md-4">
-       <img className="pic" src={maria} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
+       <img className="pic" src={workoutvid1} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
        <p className="name">WORKOUT VIDEOS</p>
        <p className="explain"> Blah blah blah blah blah blah blah blah blah blah</p>
           <hr />
         </Col>    
          <Col id="teamcol" size="md-4">
-         <img className="pic" src={maria} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
+         <img className="pic" src={recipes} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
           <p className="name">RECIPE FINDER</p>
           <p className="explain">Blah blah blah blah blah blah blah blah blah blah</p>
           <hr className="hrabout" />
         </Col>
 
        <Col id="teamcol" size="md-4">
-       <img className="pic" src={maria} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
+       <img className="pic" src={shop} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
        <p className="name">SHOP FIT LIFE</p>
        <p className="explain">Blah blah blah blah blah blah blah blah blah blah</p>
           <hr />
@@ -76,14 +80,14 @@ const About = () => (
 
        <Col id="teamcol" size="md-4">
        <img className="pic" src={maria} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
-          <p className="name">UPLOAD PHOTOS</p>
+          <p className="name">PHOTO PROGRESSION</p>
           <p className="explain">Upload photos of your progress to stay chronocling your progress with photos</p>
           <hr />
         </Col>    
 
        <Col id="teamcol" size="md-4">
-       <img className="pic" src={maria} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
-          <p className="name">FIND INSPIRATION</p>
+       <img className="pic" src={nutritioninfo} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
+          <p className="name">NUTRITIONAL INFORMATION</p>
           <p className="explain">Blah blah blah blah blah blah blah blah blah blah</p>
           <hr />
         </Col>    
