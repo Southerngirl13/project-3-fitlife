@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import 'whatwg-fetch';
 import "./SignIn.css";
+import Dashboard from '../../pages/Dashboard'
 
 import logo from "./CA1.jpg";
 
@@ -274,7 +275,7 @@ class SignIn extends Component {
 
     return (
       <div>
-        <p>Account</p>
+        <Dashboard />
         <button onClick={this.logout}>Logout</button>
       </div>
     );
