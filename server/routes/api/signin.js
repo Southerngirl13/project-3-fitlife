@@ -14,6 +14,16 @@ module.exports = (app) => {
     let {
       email
     } = body;
+    let {
+      firstName
+    } = body;
+
+    if (!firstName) {
+      return res.send({
+        success: false,
+        message: 'Error: First Name cannot be blank.'
+      });
+    }
 
     if (!email) {
       return res.send({
@@ -52,6 +62,7 @@ module.exports = (app) => {
       // Save the new user
       const newUser = new User();
 
+      newUser.firstName = firstName;
       newUser.email = email;
       newUser.password = newUser.generateHash(password);
       newUser.save((err, user) => {
