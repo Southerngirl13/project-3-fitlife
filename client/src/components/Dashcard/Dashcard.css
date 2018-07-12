@@ -1,0 +1,102 @@
+  /* This is VIP - entire section*/
+
+  .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+  }
+
+  /* This VIP */
+
+  .item {
+      position: relative;
+      display: flex;
+      height: 200px;
+      width: 400px;
+      margin: 20px;
+      flex-direction: column;
+      flex-wrap: wrap;
+  }
+
+  /* VIP for not warping image size - this is the image*/
+
+  .thumb {
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+  }
+
+  /* This is VIP - holds the overlay controls */
+
+  .dashcard-overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .3s ease;
+      /* background-color: #fbc800;  */
+      background-color: white;
+    
+  }
+
+  /*  Need this or overlay goes away altogether */
+
+  .item:hover .shopcat-overlay {
+      height: 100%;
+      opacity: 1;
+  }
+
+  .shopcath3, h3 {
+      /*background-color: aqua; */
+      font-size: 30px;
+      font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+      letter-spacing: 1px;
+      margin-top: 20px;
+  }
+
+  .shopcopy {
+      color: white;
+      text-align: center;
+      letter-spacing: .5px;
+      margin-top: 0px;
+  }
+
+  .shopcta {
+      margin-top: 20px;
+      padding: 0px;
+  }
+
+  hr {
+      padding: 0px;
+      display: block;
+      overflow: hidden;
+      border: solid .5px gainsboro;
+      margin-bottom: 20px;
+      margin-top: 30px;
+      width: 100%;
+      margin-right: 90px;
+  }
+
+  /* This changed the placement of all the text on overlay - VIP */
+
+  /* Took this out later and nothing happened?  */
+
+  /* .text {
+    white-space: nowrap;
+    color: white;
+    color: #40484b;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* background-color: pink; */

@@ -14,8 +14,7 @@ const Practice = () => (
           <h3>Practice Page for Components</h3>
           <h3>Hi Jamar - Here's Today's Workout</h3>
           <Video />   
-          <Video /> 
-          <Video />       
+              
         </Col>
         <Col size="md-6">
         <div class="panel panel-default">
