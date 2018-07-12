@@ -10,7 +10,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import SignIn from "./components/SignIn";
-import SignUp from "./components/SignUp";
+
 
 
 
@@ -27,11 +27,7 @@ const App = () => (
               <SignIn />
             </div>
           )} />
-          <Route exact={true} path='/signup' render={() => (
-            <div className="App">
-              <SignUp />
-            </div>
-          )} />
+         
        <Route exact path="/contact" component={Contact} /> 
        <Route exact path="/dashboard" component={Dashboard} /> 
        <Route exact path="/kjs" component={KJS} /> 
