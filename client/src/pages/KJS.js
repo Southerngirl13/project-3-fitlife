@@ -12,7 +12,9 @@ const Practice = () => (
       <Row>
         <Col size="md-6">
           <h3>Practice Page for Components</h3>
-          <Video />         
+          <h3>Hi Jamar - Here's Today's Workout</h3>
+          <Video />   
+              
         </Col>
         <Col size="md-6">
         <div class="panel panel-default">

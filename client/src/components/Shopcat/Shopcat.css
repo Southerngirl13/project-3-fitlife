@@ -38,7 +38,7 @@
     opacity: 0;
     transition: .3s ease;
     background-color: #fbc800;
-    border-radius: 10px; 
+    
   }
 
   /*  Need this or overlay goes away altogether */

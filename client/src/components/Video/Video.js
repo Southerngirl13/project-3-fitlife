@@ -6,7 +6,7 @@ class Video extends React.Component {
     
   render() {
     const opts = {
-      height: '325px',
+      height: '225px',
       width: '70%',
       opacity: '0.5',
       playerVars: { // https://developers.google.com/youtube/player_parameters
@@ -18,7 +18,7 @@ class Video extends React.Component {
     
     return (
       <YouTube
-        videoId="-rh3MHnRI_I"
+        videoId="7n9aMTKKIR4"
         opts={opts}
         onReady={this._onReady}
       />
