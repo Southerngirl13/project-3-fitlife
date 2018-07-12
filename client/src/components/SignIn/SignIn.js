@@ -21,12 +21,14 @@ class SignIn extends Component {
       signInError: '',
       signInEmail: '',
       signInPassword: '',
+      signUpFirstName: '',
       signUpEmail: '',
       signUpPassword: '',
     };
 
     this.onTextboxChangeSignInEmail = this.onTextboxChangeSignInEmail.bind(this);
     this.onTextboxChangeSignInPassword = this.onTextboxChangeSignInPassword.bind(this);
+    this.onTextboxChangeSignUpFirstName = this.onTextboxChangeSignUpFirstName.bind(this);
     this.onTextboxChangeSignUpEmail = this.onTextboxChangeSignUpEmail.bind(this);
     this.onTextboxChangeSignUpPassword = this.onTextboxChangeSignUpPassword.bind(this);
     
@@ -73,6 +75,12 @@ class SignIn extends Component {
     });
   }
 
+  onTextboxChangeSignUpFirstName(event) {
+    this.setState({
+      signUpFirstName: event.target.value,
+    });
+  }
+
   onTextboxChangeSignUpEmail(event) {
     this.setState({
       signUpEmail: event.target.value,
@@ -88,6 +96,7 @@ class SignIn extends Component {
   onSignUp() {
     // Grab state
     const {
+      signUpFirstName,
       signUpEmail,
       signUpPassword,
     } = this.state;
@@ -103,6 +112,7 @@ class SignIn extends Component {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
+        firstName: signUpFirstName,
         email: signUpEmail,
         password: signUpPassword,
       }),
@@ -113,6 +123,7 @@ class SignIn extends Component {
           this.setState({
             signUpError: json.message,
             isLoading: false,
+            signUpFirstName: '',
             signUpEmail: '',
             signUpPassword: '',
           });
@@ -203,6 +214,7 @@ class SignIn extends Component {
       signInError,
       signInEmail,
       signInPassword,
+      signUpFirstName,
       signUpEmail,
       signUpPassword,
       signUpError,
@@ -251,6 +263,13 @@ class SignIn extends Component {
               ) : (null)
             }
             <p className="signup">Don't have an account? Create one.</p>
+            <input
+              type="firstName"
+              placeholder="FirstName"
+              value={signUpFirstName}
+              onChange={this.onTextboxChangeSignUpFirstName}
+            /><br />
+              <br />
             <input
               type="email"
               placeholder="Email"
