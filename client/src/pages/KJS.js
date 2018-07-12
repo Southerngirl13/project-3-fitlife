@@ -15,7 +15,6 @@ const Practice = () => (
           <h3>Hi Jamar - Here's Today's Workout</h3>
           <Video />   
           <Video /> 
-          <Video /> 
           <Video />       
         </Col>
         <Col size="md-6">
