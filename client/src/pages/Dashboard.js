@@ -24,7 +24,7 @@ const Dashboard = (props) => (
             <Row>
                 <Col size="md-12">
                     <h1 className="herotitle1">Hi {props.firstName}.</h1><h1 className="welcome">Welcome to Fit Life!</h1>
-                    <hr className="hr-text" />
+                    <hr className="hr-top" />
                     <p className="titletop">This is where your customized programs live.</p>
                     <p className="subtitle">Simply click on what you want to access. </p>
                 </Col>
@@ -34,7 +34,7 @@ const Dashboard = (props) => (
        
         <Container style={{ marginTop: 40 }}>
            
-            <hr className="hr-text" />
+            <hr className="hr-bottom" />
             <h4 className="h4quote">And {props.firstName},</h4>
             <p className="pquote">Be Strong Today. You never know who you're inspiring.</p>
             <p className="signoff">In Good Health,<br />Fit Life</p>
