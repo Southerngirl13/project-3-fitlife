@@ -294,7 +294,7 @@ class SignIn extends Component {
 
     return (
       <div>
-        <Dashboard />
+        <Dashboard firstName={this.state.firstName}/>
         <button onClick={this.logout}>Logout</button>
       </div>
     );

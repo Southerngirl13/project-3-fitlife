@@ -10,7 +10,7 @@ import logo from "./logo.png";
 
 
 
-const Dashboard = () => (
+const Dashboard = (props) => (
 
     <div>
         <Herodash backgroundImage={foamrolling}>
@@ -21,7 +21,7 @@ const Dashboard = () => (
         <Container style={{ marginTop: 30 }}>
             <Row>
                 <Col size="md-12">
-                    <h1 className="herotitle1">Hi Kim.</h1><h1 className="welcome">Welcome to Fit Life!</h1>
+                    <h1 className="herotitle1">Hi {props.firstName}.</h1><h1 className="welcome">Welcome to Fit Life!</h1>
                     <hr className="hr-text" />
                     <p className="titletop">This is where your customized programs live.</p>
                     <p className="subtitle">Simply click on what you want to access. </p>
@@ -74,7 +74,7 @@ const Dashboard = () => (
                 </Col>
             </Row>
             <hr className="hr-text" />
-            <h4 className="h4quote">And Kim,</h4>
+            <h4 className="h4quote">And {props.firstName},</h4>
             <p className="pquote">Be Strong Today. You never know who you're inspiring.</p>
             <p className="signoff">In Good Health,<br />Fit Life</p>
             <Row>
