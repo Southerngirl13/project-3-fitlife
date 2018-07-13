@@ -36,7 +36,7 @@ class Blog extends Component {
             <img src={monitor} alt={"monitor"} className="thumb" />
             <div className="blog-overlay">
               <div className="text">
-                <h3>Monitor Your Progress</h3>
+                <h3>Monitor Your Progress. Stay On Course.</h3>
                 
                 <p><a href="https://southerngirl13.github.io/kjs-portfolio/index.html" target="_blank" rel="noopener noreferrer">Get Started On Your Fit Life Now!<i className="fa fa-external-link"></i></a></p>
               </div>

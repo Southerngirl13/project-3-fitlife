@@ -16,7 +16,7 @@ const Practice = () => (
           <Video />   
               
         </Col>
-        <Col size="md-6">
+        <Col size="md-12">
         <div class="panel panel-default">
       <div class="panel-heading">
         <h2>Explosive Strength Workout</h2>
@@ -98,7 +98,7 @@ const Practice = () => (
             <td></td>
           </tr>
           <tr>
-              <td colspan="7">Comments:</td>
+              <td colspan="70">Comments:</td>
           </tr>
         </tbody>
       </table>
