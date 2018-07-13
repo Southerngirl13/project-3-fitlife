@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import nourish1 from './nourish1.jpg';
 import "./Dashcard.css";
+import { Link } from "react-router-dom";
 
 
 class Shopcat extends Component {
@@ -12,9 +13,9 @@ class Shopcat extends Component {
                         <img src={nourish1} alt={"protein powder"} className="thumb" />
                         <div className="shopcat-overlay">
                             <div className="text">
-                                <h3 className="shopcath3">PROTEIN POWDERS</h3>
-                                <p className="shopcopy">In an ideal world, we’d get all of the <br />important nutrients our bodies need, <br />including protein. But there are always <br />situations where it’s useful to have <br />protein shakes. It’s just convenient <br />and easy!”</p>
-                                <p className="shopcta"><a href="https://southerngirl13.github.io/kjs-portfolio/index.html" target="_blank" rel="noopener noreferrer">Shop Protein Powders<i className="fa fa-external-link"></i></a></p>
+                                <h3 className="shopcath3">Recipes</h3>
+                                <p className="shopcopy">In an ideal world, we’d get all of the</p>
+                                <p className="shopcta"><Link className="navbar-brand" to="/recipes">Go to Recipes</Link> </p>   
                             </div>
                         </div>
                     </div>
