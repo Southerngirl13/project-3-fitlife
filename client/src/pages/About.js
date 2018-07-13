@@ -55,40 +55,39 @@ const About = () => (
        <Col id="teamcol" size="md-4">
        <img className="pic" src={tracker} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
           <p className="name">TRACKING TOOLS</p>
-          <p className="explain">Blah blah blah blah blah blah blah blah blah blah</p>
+          <p className="explain">Assess & Monitor<br />Weight & BMI</p>
           <hr />
         </Col>    
+        <Col id="teamcol" size="md-4">
+         <img className="pic" src={recipes} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
+          <p className="name">RECIPE FINDER</p>
+          <p className="explain">Search For Recipes That <br />Complement A Fit Life </p>
+          <hr className="hrabout" />
+        </Col>
        <Col id="teamcol" size="md-4">
        <img className="pic" src={workoutvid1} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
        <p className="name">WORKOUT VIDEOS</p>
-       <p className="explain"> Blah blah blah blah blah blah blah blah blah blah</p>
+       <p className="explain">Find & Save Your Favorite <br />Video Workout Routines</p>
           <hr />
         </Col>    
-         <Col id="teamcol" size="md-4">
-         <img className="pic" src={recipes} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
-          <p className="name">RECIPE FINDER</p>
-          <p className="explain">Blah blah blah blah blah blah blah blah blah blah</p>
-          <hr className="hrabout" />
-        </Col>
-
        <Col id="teamcol" size="md-4">
        <img className="pic" src={shop} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
        <p className="name">SHOP FIT LIFE</p>
-       <p className="explain">Blah blah blah blah blah blah blah blah blah blah</p>
+       <p className="explain">Food Made With <br />Simple, Wholesome Ingredients</p>
           <hr />
         </Col>
 
        <Col id="teamcol" size="md-4">
        <img className="pic" src={maria} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
           <p className="name">PHOTO PROGRESSION</p>
-          <p className="explain">Upload photos of your progress to stay chronocling your progress with photos</p>
+          <p className="explain">Upload Photos & Chronicle <br />Your Fit Life Progress</p>
           <hr />
         </Col>    
 
        <Col id="teamcol" size="md-4">
        <img className="pic" src={nutritioninfo} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
-          <p className="name">NUTRITIONAL INFORMATION</p>
-          <p className="explain">Blah blah blah blah blah blah blah blah blah blah</p>
+          <p className="name">WORKOUT LOGGING</p>
+          <p className="explain">Plan, Organize & Log <br />Your Daily Workouts</p>
           <hr />
         </Col>    
       </Row>

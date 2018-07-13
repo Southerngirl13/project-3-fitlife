@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import 'whatwg-fetch';
 import "./SignIn.css";
 import Dashboard from '../../pages/Dashboard'
-
-import yogaguy1 from "./yogaguy1.jpg";
+import yogaguy2 from "./yogaguy2.jpg";
 
 import {
   getFromStorage,
@@ -227,7 +226,7 @@ class SignIn extends Component {
     if (!token) {
       return (
         <div className="form">       
-         <img className="yogaguy1" src={yogaguy1} alt={"logo"} style={{ height: undefined, flex: 1, width: 1500, padding: 0 }}/>       
+         <img className="yogaguy2" src={yogaguy2} alt={"logo"} style={{ height: undefined, flex: 1, width: 1500, padding: 0 }}/>       
          <div>
             {
               (signInError) ? (
@@ -294,7 +293,7 @@ class SignIn extends Component {
 
     return (
       <div>
-        <Dashboard />
+        <Dashboard firstName={this.state.firstName}/>
         <button onClick={this.logout}>Logout</button>
       </div>
     );
