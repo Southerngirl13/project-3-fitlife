@@ -9,10 +9,10 @@ import "./About.css";
 import recipes from "../images/recipes.png";
 import workoutvid1 from "../images/workoutvid1.png";
 import shop from "../images/shop.png";
-import nutritioninfo from "../images/nutritioninfo.png";
 import tracker from "../images/tracker.png";
 import bald from "./bald.jpg";
 import maria from "../images/maria.gif";
+import jump from "../images/jump.png";
 
 
 
@@ -70,22 +70,20 @@ const About = () => (
        <p className="explain">Find & Save Your Favorite <br />Video Workout Routines</p>
           <hr />
         </Col>    
+        <Col id="teamcol" size="md-4">
+       <img className="pic" src={maria} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
+          <p className="name">PHOTO PROGRESSION</p>
+          <p className="explain">Upload Photos & Chronicle <br />Your Fit Life Progress</p>
+          <hr />
+        </Col>    
        <Col id="teamcol" size="md-4">
        <img className="pic" src={shop} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
        <p className="name">SHOP FIT LIFE</p>
        <p className="explain">Food Made With <br />Simple, Wholesome Ingredients</p>
           <hr />
         </Col>
-
        <Col id="teamcol" size="md-4">
-       <img className="pic" src={maria} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
-          <p className="name">PHOTO PROGRESSION</p>
-          <p className="explain">Upload Photos & Chronicle <br />Your Fit Life Progress</p>
-          <hr />
-        </Col>    
-
-       <Col id="teamcol" size="md-4">
-       <img className="pic" src={nutritioninfo} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
+       <img className="pic" src={jump} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
           <p className="name">WORKOUT LOGGING</p>
           <p className="explain">Plan, Organize & Log <br />Your Daily Workouts</p>
           <hr />
