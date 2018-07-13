@@ -10,6 +10,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import SignIn from "./components/SignIn";
+import Recipes from "./pages/Recipes";
+
 
 
 
@@ -33,6 +35,8 @@ const App = () => (
        <Route exact path="/kjs" component={KJS} /> 
        <Route exact path="/shop" component={Shop} /> 
        <Route exact path="/blog" component={Blog} /> 
+       <Route exact path="/recipes" component={Recipes} />
+       {/* <Route exact path="/recipes" component={Recipes} />  */}
       </Wrapper>
       <Footer />
     </div>
