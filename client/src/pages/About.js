@@ -17,6 +17,7 @@ import jump from "../images/jump.png";
 
 
 
+
 const About = () => (
   <div>
     <Hero  backgroundImage={bald}> 
@@ -39,7 +40,7 @@ const About = () => (
       
    </Container>
  <Blog />
- <Row className="text-center"><h1 className="firstline">(more explainer text here)</h1></Row>
+ {/* <Row className="text-center"><h1 className="firstline">(more explainer text here)</h1></Row>
  <Container>
  <p>
           At Fit Life, our philosophy is simple. The Fit Life Philosophy is simple. we believe a healthy body makes for a healthier....  Nourish. Train. Monitor.Create excellence. Easily.
@@ -48,7 +49,7 @@ const About = () => (
           and keep them fit, healthy, happy, and ready to win. Cost-effectively. From youth to pro.
           Engage
           </p>
-          </Container>
+          </Container> */}
  <h1 className="flfeatures">Fit Life Features</h1>
       <Container style={{ marginTop: 100 }}>    
       <Row> 
@@ -90,6 +91,7 @@ const About = () => (
         </Col>    
       </Row>
     </Container> 
+
     <Container>
             <Row className="text-center"><h2 className="hey">Reach Your Fit Life Potential!</h2>      
           <button className="gsbtn" onClick={this.onSignUp}>GET STARTED NOW</button> 
