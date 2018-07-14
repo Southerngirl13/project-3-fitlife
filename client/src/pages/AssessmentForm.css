@@ -1,0 +1,28 @@
+h3, h6 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.assessmentForm {
+    border: 3px solid #fac82d;
+    padding: 3px;
+}
+
+form {
+    margin: auto;
+    width: 50%;
+    height: 500px;
+    padding: 3px;
+}
+
+button {
+    background-color: #40484b;
+}
+
+.assessmentResults {
+    border: 3px solid #fac82d;
+    margin: auto;
+    /* width: 50%; */
+    height: 600px;
+    padding: 3px;
+} 
