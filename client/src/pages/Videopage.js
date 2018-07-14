@@ -18,29 +18,34 @@ const Videopage = () => (
                     href="http://hasfit.com/"
                 >
                     Powered by HASFit
-    </a>
-    <br />
-    <br />
+                </a>
+
+                <br />
+                <br />
             </Row>
+            
             <Row>
-            <Col size="md-12">
-            <Video />
-            </Col>
+                <Col size="md-12">
+                    <Video />
+                </Col>
             </Row>
+
             <Row>
-            <Col size="md-12">
-            <Videogrid />
-            <Videogrid />
-            </Col>
+                <Col size="md-12">
+                    <Videogrid />
+                    <Videogrid />
+                </Col>
             </Row>
+
             <Row>
-            <Col size="md-12">
-            <Videogrid />
-            <Videogrid />
-            </Col>
+                <Col size="md-12">
+                    <Videogrid />
+                    <Videogrid />
+                </Col>
             </Row>
+
         </Container>
-    
+
 
     </div >
 )
