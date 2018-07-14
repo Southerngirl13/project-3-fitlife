@@ -5,16 +5,15 @@ import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import Video from "../components/Video";
+
+
+
 const Practice = () => (
   <div>
     <Container style={{ marginTop: 40 }}>
       <Row>
-        <Col size="md-6">
-          <h3>Practice Page for Components</h3>
-          <Video />         
-        </Col>
-        <Col size="md-6">
+        
+        <Col size="md-12">
         <div class="panel panel-default">
       <div class="panel-heading">
         <h2>Explosive Strength Workout</h2>
@@ -96,7 +95,7 @@ const Practice = () => (
             <td></td>
           </tr>
           <tr>
-              <td colspan="7">Comments:</td>
+              <td colspan="70">Comments:</td>
           </tr>
         </tbody>
       </table>

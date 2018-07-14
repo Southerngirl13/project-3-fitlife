@@ -6,7 +6,7 @@
 
 /*  this is the nav topics section */
 a.nav-link {
-  font-size: 18pt;
+  font-size: 16pt;
   font-weight: 400;
   font-family: "HCo Verlag","CenturyGothic",AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
   float: right;
@@ -15,8 +15,11 @@ a.nav-link {
 /* This is the left side portion with FIT LIFE - or logo - need to add our logo there*/
 .navbar-brand {
   font-size: 24pt;
+  font-weight: 50;
   padding-right: 0pt;
   padding-left: 10pt;
+  color: white;
+  letter-spacing: 1px;
 }
 
 /* Don't know what (if anything) this does */

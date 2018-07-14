@@ -3,15 +3,23 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Dashboard from "./pages/Dashboard";
+<<<<<<< HEAD
 import AssessmentForm from "./pages/AssessmentForm";
 import KJS from "./pages/KJS";
+=======
+>>>>>>> sam
 import Shop from "./pages/Shop";
-import Blog from "./components/Blog";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import SignIn from "./components/SignIn";
-import SignUp from "./components/SignUp";
+import Recipes from "./pages/Recipes";
+import Videopage from "./pages/Videopage";
+import Workout from "./pages/Workout";
+import Photolog from "./pages/Photolog";
+
+
+
 
 
 
@@ -28,17 +36,18 @@ const App = () => (
               <SignIn />
             </div>
           )} />
-          <Route exact={true} path='/signup' render={() => (
-            <div className="App">
-              <SignUp />
-            </div>
-          )} />
+         
        <Route exact path="/contact" component={Contact} /> 
        <Route exact path="/dashboard" component={Dashboard} /> 
-       <Route exact path="/kjs" component={KJS} /> 
+
        <Route exact path="/shop" component={Shop} /> 
        <Route exact path="/blog" component={Blog} /> 
        <Route exact path="/assessmentform" component={AssessmentForm} /> 
+       <Route exact path="/recipes" component={Recipes} />
+       <Route exact path="/videopage" component={Videopage} />
+       <Route exact path="/workout" component={Workout} />
+       <Route exact path="/photolog" component={Photolog} />
+   
       </Wrapper>
       <Footer />
     </div>
