@@ -13,9 +13,9 @@ class Shopcat extends Component {
                         <img src={nourish1} alt={"protein powder"} className="thumb" />
                         <div className="shopcat-overlay">
                             <div className="text">
-                                <h3 className="shopcath3">Recipes</h3>
-                                <p className="shopcopy">In an ideal world, we’d get all of the</p>
-                                <p className="shopcta"><Link className="navbar-brand" to="/recipes">Go to Recipes</Link> </p>   
+                                {/* <h3 className="shopcath3">TRACKING TOOLS</h3> */}
+                                {/* <p className="shopcopy">Tracking Tools</p> */}
+                                <p className="shopcta"><Link className="navbar-brand" to="/recipes">GO NOW!</Link> </p>   
                             </div>
                         </div>
                     </div>
@@ -24,9 +24,9 @@ class Shopcat extends Component {
                         <img src={nourish1} alt={"shakes"} className="thumb" />
                         <div className="shopcat-overlay">
                             <div className="text">
-                                <h3>PROTEIN SHAKES</h3>
-                                <p className="shopcopy">In an ideal world, we’d get all of the <br />important nutrients our bodies need, <br />including protein. But there are always <br />situations where it’s useful to have  <br />protein shakes. It’s just convenient <br />and easy!”</p>
-                                <p className="shopcta"><a href="https://southerngirl13.github.io/kjs-portfolio/index.html" target="_blank" rel="noopener noreferrer">Shop Protein Shakes <i className="fa fa-external-link"></i></a></p>
+                                {/* <h3>RECIPE FINDER</h3>
+                                <p className="shopcopy">Recipe Finder</p> */}
+                                <p className="shopcta"><Link className="navbar-brand" to="/videopage">GO NOW!</Link> </p>   
                             </div>
                         </div>
                     </div>
@@ -35,41 +35,41 @@ class Shopcat extends Component {
                         <img src={nourish1} alt={"granola"} className="thumb" />
                         <div className="shopcat-overlay">
                             <div className="text">
-                                <h3>GRANOLA</h3>
-                                <p className="shopcopy">Granola is an extremely popular breakfast <br />and snack food with a wealth of <br />health benefits, including its ability <br />to lower cholesterol, regulate digestion, <br />aid in weight loss, and improve heart health.</p>
-                                <p className="shopcta"><a href="https://southerngirl13.github.io/kjs-portfolio/index.html" target="_blank" rel="noopener noreferrer">Shop Granola <i className="fa fa-external-link"></i></a></p>
+                                {/* <h3>WORKOUT VIDEOS</h3>
+                                <p className="shopcopy">Workout Videos</p> */}
+                                <p className="shopcta"><Link className="navbar-brand" to="/videopage">GO NOW!</Link> </p>   
                             </div>
                         </div>
                     </div>
                     <div className="item">
-                        <img src={nourish1} alt={"granola bars"} className="thumb" />
+                        <img src={nourish1} alt={"granola"} className="thumb" />
                         <div className="shopcat-overlay">
                             <div className="text">
-                                <h3>GRANOLA BARS</h3>
-                                <p className="shopcopy">Granola bars make on-the-go <br />eating easy! At Fit Life, we're committed <br />to making sure they're also good for you.<br />Made with the freshest..</p>
-                                <p className="shopcta"><a href="https://southerngirl13.github.io/kjs-portfolio/index.html" target="_blank" rel="noopener noreferrer">Shop Granola Bars <i className="fa fa-external-link"></i></a></p>
+                                {/* <h3>PHOTO PROGRESSION</h3>
+                                <p className="shopcopy">Upload Photos</p> */}
+                                <p className="shopcta"><Link className="navbar-brand" to="/videopage">GO NOW!</Link> </p>   
+                            </div>
+                        </div>
+                    </div>
+                    <div className="item">
+                        <img src={nourish1} alt={"granola"} className="thumb" />
+                        <div className="shopcat-overlay">
+                            <div className="text">
+                                {/* <h3>SHOP FIT LIFE</h3>
+                                <p className="shopcopy">Shop Fit Life</p> */}
+                                <p className="shopcta"><a href="https://southerngirl13.github.io/kjs-portfolio/index.html" target="_blank" rel="noopener noreferrer">GO NOW!</a> </p>   
+                                
                             </div>
                         </div>
                     </div>
 
-                    <div className="item">
-                        <img src={nourish1} alt={"nut butters"} className="thumb" />
+                   <div className="item">
+                        <img src={nourish1} alt={"granola"} className="thumb" />
                         <div className="shopcat-overlay">
                             <div className="text">
-                                <h3>NUTBUTTERS</h3>
-                                <p className="shopcopy">Start spreading the nut butter news! <br /> This superfood is packed with health perks, <br />from improving breast health <br />to lowering bad cholesterol. .</p>
-                                <p className="shopcta"><a href="https://southerngirl13.github.io/kjs-portfolio/index.html" target="_blank" rel="noopener noreferrer">Shop Nut Butters <i className="fa fa-external-link"></i></a></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="item">
-                        <img src={nourish1} alt={"sweets"} className="thumb" />
-                        <div className="shopcat-overlay">
-                            <div className="text">
-                                <h3>SWEET TREATS</h3>
-                                <p className="shopcopy">We put natural sweetness into every...</p>
-                                <p className="shopcta"><a href="https://southerngirl13.github.io/kjs-portfolio/index.html" target="_blank" rel="noopener noreferrer">Shop Treats<i className="fa fa-external-link"></i></a></p>
+                                {/* <h3>PHOTO PROGRESSION</h3>
+                                <p className="shopcopy">Upload Photos</p> */}
+                                <p className="shopcta"><Link className="navbar-brand" to="/videopage">GO NOW!</Link> </p>   
                             </div>
                         </div>
                     </div>
