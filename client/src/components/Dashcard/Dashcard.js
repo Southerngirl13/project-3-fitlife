@@ -15,7 +15,7 @@ class Shopcat extends Component {
                             <div className="text">
                                 {/* <h3 className="shopcath3">TRACKING TOOLS</h3> */}
                                 {/* <p className="shopcopy">Tracking Tools</p> */}
-                                <p className="shopcta"><Link className="navbar-brand" to="/recipes">GO NOW!</Link> </p>   
+                                <p className="shopcta"><Link className="navbar-brand" to="/photolog">GO NOW!</Link> </p>   
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ class Shopcat extends Component {
                             <div className="text">
                                 {/* <h3>PHOTO PROGRESSION</h3>
                                 <p className="shopcopy">Upload Photos</p> */}
-                                <p className="shopcta"><Link className="navbar-brand" to="/videopage">GO NOW!</Link> </p>   
+                                <p className="shopcta"><Link className="navbar-brand" to="/photolog">GO NOW!</Link> </p>   
                             </div>
                         </div>
                     </div>
