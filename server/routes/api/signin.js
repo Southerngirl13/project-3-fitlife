@@ -1,12 +1,10 @@
 const User = require('../../models/User');
 const UserSession = require('../../models/UserSession');
 
+const router = require("express").Router();
 
-module.exports = (app) => {
-  /*
-   * Sign up
-   */
-  app.post('/api/account/signup', (req, res, next) => {
+router.route("/signup")
+  .post((req, res, next) => {
     const { body } = req;
     const {
       password
@@ -81,7 +79,8 @@ module.exports = (app) => {
 
   });
 
-  app.post('/api/account/signin', (req, res, next) => {
+router.route("/signin")
+  .post((req, res, next) => {
     const { body } = req;
     const {
       password
@@ -154,7 +153,8 @@ module.exports = (app) => {
     });
   });
 
-  app.get('/api/account/verify', (req, res, next) => {
+router.route("/verify")
+  .get((req, res, next) => {
     // Get the token
     const { query } = req;
     const { token } = query;
@@ -188,7 +188,8 @@ module.exports = (app) => {
     });
   });
 
-  app.get('/api/account/logout', (req, res, next) => {
+router.route("/logout")
+  .get((req, res, next) => {
     // Get the token
     const { query } = req;
     const { token } = query;
@@ -200,23 +201,31 @@ module.exports = (app) => {
       _id: token,
       isDeleted: false
     }, {
-      $set: {
-        isDeleted:true
-      }
-    }, null, (err, sessions) => {
-      if (err) {
-        console.log(err);
-        return res.send({
-          success: false,
-          message: 'Error: Server error'
-        });
-      }
+        $set: {
+          isDeleted: true
+        }
+      }, null, (err, sessions) => {
+        if (err) {
+          console.log(err);
+          return res.send({
+            success: false,
+            message: 'Error: Server error'
+          });
+        }
 
-      return res.send({
-        success: true,
-        message: 'Good'
+        return res.send({
+          success: true,
+          message: 'Good'
+        });
       });
-    });
   });
-};
+
+module.exports = router;
+
+
+
+
+
+
+
 

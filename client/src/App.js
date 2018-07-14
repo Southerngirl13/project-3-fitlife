@@ -3,6 +3,11 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Dashboard from "./pages/Dashboard";
+<<<<<<< HEAD
+import AssessmentForm from "./pages/AssessmentForm";
+import KJS from "./pages/KJS";
+=======
+>>>>>>> sam
 import Shop from "./pages/Shop";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -36,6 +41,8 @@ const App = () => (
        <Route exact path="/dashboard" component={Dashboard} /> 
 
        <Route exact path="/shop" component={Shop} /> 
+       <Route exact path="/blog" component={Blog} /> 
+       <Route exact path="/assessmentform" component={AssessmentForm} /> 
        <Route exact path="/recipes" component={Recipes} />
        <Route exact path="/videopage" component={Videopage} />
        <Route exact path="/workout" component={Workout} />
