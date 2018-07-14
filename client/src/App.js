@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Dashboard from "./pages/Dashboard";
+import AssessmentForm from "./pages/AssessmentForm";
 import KJS from "./pages/KJS";
 import Shop from "./pages/Shop";
 import Blog from "./components/Blog";
@@ -37,6 +38,7 @@ const App = () => (
        <Route exact path="/kjs" component={KJS} /> 
        <Route exact path="/shop" component={Shop} /> 
        <Route exact path="/blog" component={Blog} /> 
+       <Route exact path="/assessmentform" component={AssessmentForm} /> 
       </Wrapper>
       <Footer />
     </div>
