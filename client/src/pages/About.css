@@ -5,6 +5,7 @@
 .gsbtn {
     margin-top: 30px;
     font-size: 20px;
+    color: white;
 }
 
 .hey {
@@ -40,9 +41,11 @@
     letter-spacing: 1px;
 }
 
-.name, p {
+.name {
     text-align: center;
-    color: #6a777f;
+    color: #40484b;
+    font-size: 22px;
+    letter-spacing: 1px;
 }
 
 .membercopy, p {
@@ -60,4 +63,8 @@
 
 .pic {
     margin-left: 30px;
+}
+
+p {
+    color: #6a777f;
 }

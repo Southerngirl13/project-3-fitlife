@@ -1,6 +1,6 @@
 .herotitle {
     font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
-    font-size: 75px;
+    font-size: 120px;
     text-align: center;
     letter-spacing: 2px;
     margin-top: 150px;
@@ -38,10 +38,12 @@
 .wtfisthis p {
     background-color: blue;
     color: yellowgreen;
+    margin-top: 0px;
 }
 
 .wtfisthis {
     color: #6a777f;
+    text-align: center;
 }
 
 .dashtitle {
@@ -61,7 +63,7 @@
     font-weight: 50;
     font-size: 30px;
     color: #40484b;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .subtitle {
@@ -73,13 +75,24 @@
 }
 
 
-.hr-text {
+.hr-top {
     width: 80%;
     position: relative;
     /* color: #fcfcfa; */
     color: #efc82f;
     float: center;
     border-top: 3px double #8c8b8b;
+    margin-top: 20px;
+}
+
+.hr-bottom {
+    width: 80%;
+    position: relative;
+    /* color: #fcfcfa; */
+    color: #efc82f;
+    float: center;
+    border-top: 3px double #8c8b8b;
+    margin-top: 60px;
 }
 
 .pquote {
@@ -114,3 +127,18 @@ font-weight: 100;
     margin-bottom: 0px;
 }
 
+.card {
+    border-radius: 0px;
+   align-items: center;
+}
+
+.link {
+    margin-top: -20px;
+    color: purple;
+    font-size: 16px;
+}
+
+.col {
+align-items: center;
+    
+}

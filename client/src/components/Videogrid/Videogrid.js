@@ -2,12 +2,12 @@ import React from "react";
 import YouTube from "react-youtube";
 
  
-class Video extends React.Component {
+class Videogrid extends React.Component {
     
   render() {
     const opts = {
-      height: '620px',
-      width: '95%',
+      height: '300px',
+      width: '40%',
   
       opacity: '0.5',
       playerVars: { // https://developers.google.com/youtube/player_parameters
@@ -31,4 +31,4 @@ _onReady(event) {
 }
 };
   
-export default Video;
+export default Videogrid;

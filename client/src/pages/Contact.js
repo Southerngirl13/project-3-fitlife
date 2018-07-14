@@ -17,7 +17,7 @@ const Contact = () => (
   <div>
       <Hero backgroundImage={liftguy}> 
      <img className="shoplogo" src={logo} alt={"logo"} style={{ height: 0, flex: 1, width: undefined, padding: 0 }}/>
-      <h2 className="shoptitle">The Fit Life Project</h2>
+      <h2 className="shoptitle">The FitLife Project</h2>
     </Hero>
     <Container style={{ marginTop: 40 }}>
       <Row className="text-center2"><h1>Objectives</h1> </Row>
@@ -53,7 +53,7 @@ const Contact = () => (
        <Col id="teamcol" size="md-4">
           <img className="memberimg" src={kim} alt={"kim"} style={{ height: 120, flex: 1, width: undefined, padding: 0 }} />
           <p className="memname">Kimberly Swope</p>
-          <div className="membercopy"><p> <li>Recipe, Nutrition & Quote API Pages</li><li>Front-End Development</li> </p></div>
+          <div className="membercopy"><p><li>Front-End Development</li><li>Recipe & Nutrition API Pages</li> </p></div>
           <hr className="memberhr"/>
         </Col>
 </Row>
@@ -67,7 +67,7 @@ const Contact = () => (
         <Col id="teamcol" size="md-4">
           <img className="memberimg" src={jamar} alt={"jamar"} style={{ height: 120, flex: 1, width: undefined, padding: 0 }} />
           <p className="memname">Jamar Parham</p>
-          <div className="membercopy"><p> <li>React Video Component</li><li>Video Frame Page</li> </p></div>
+          <div className="membercopy"><p> <li>React Video Component</li><li> Page</li> </p></div>
           <hr className="memberhr"/>
         </Col>
        <Col id="teamcol" size="md-4">
