@@ -26,7 +26,7 @@ class Shopcat extends Component {
                             <div className="text">
                                 {/* <h3>RECIPE FINDER</h3>
                                 <p className="shopcopy">Recipe Finder</p> */}
-                                <p className="shopcta"><Link className="navbar-brand" to="/videopage">GO NOW!</Link> </p>   
+                                <p className="shopcta"><Link className="navbar-brand" to="/recipes">GO NOW!</Link> </p>   
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ class Shopcat extends Component {
                             <div className="text">
                                 {/* <h3>SHOP FIT LIFE</h3>
                                 <p className="shopcopy">Shop Fit Life</p> */}
-                                <p className="shopcta"><a href="https://southerngirl13.github.io/kjs-portfolio/index.html" target="_blank" rel="noopener noreferrer">GO NOW!</a> </p>   
+                                <p className="shopcta"><a href="https://fitlifestore.herokuapp.com/" target="_blank" rel="noopener noreferrer">GO NOW!</a> </p>   
                                 
                             </div>
                         </div>
@@ -69,7 +69,7 @@ class Shopcat extends Component {
                             <div className="text">
                                 {/* <h3>PHOTO PROGRESSION</h3>
                                 <p className="shopcopy">Upload Photos</p> */}
-                                <p className="shopcta"><Link className="navbar-brand" to="/videopage">GO NOW!</Link> </p>   
+                                <p className="shopcta"><Link className="navbar-brand" to="/workout">GO NOW!</Link> </p>   
                             </div>
                         </div>
                     </div>

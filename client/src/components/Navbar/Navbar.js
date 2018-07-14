@@ -58,22 +58,33 @@ const Navbar = props => (
           }
         >
           <Link to="/signin" className="nav-link">
-            Sign In
+            Log In
           </Link>
         </li>
       
         <li
           className={
-            window.location.pathname === "/kjs"
+            window.location.pathname === "/signin"
               ? "nav-item active"
               : "nav-item"
           }
         >
-          <Link to="/kjs" className="nav-link">
-          Practice - KJS
+          <Link to="/signin" className="nav-link">
+           Register
           </Link>
         </li>
 
+  <li
+          className={
+            window.location.pathname === "/about"
+              ? "nav-item active"
+              : "nav-item"
+          }
+        >
+          <Link to="/about" className="nav-link">
+         Log Out
+          </Link>
+        </li>
         {/*  What about this?  How do we add the glyphs?
     <ul class="nav navbar-nav navbar-right">
       <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>

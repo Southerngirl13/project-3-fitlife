@@ -10,7 +10,10 @@ import Col from "../components/Col";
 
 const Practice = () => (
   <div>
-    
+    <Container style={{ marginTop: 40 }}>
+      <Row>
+        
+        <Col size="md-12">
         <div class="panel panel-default">
       <div class="panel-heading">
         <h2>Explosive Strength Workout</h2>
@@ -97,7 +100,9 @@ const Practice = () => (
         </tbody>
       </table>
     </div>         
-       
+        </Col>
+      </Row>
+    </ Container>
     </div>
      );
 export default Practice;
