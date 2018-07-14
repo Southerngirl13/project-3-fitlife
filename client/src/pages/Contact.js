@@ -17,7 +17,7 @@ const Contact = () => (
   <div>
       <Hero backgroundImage={liftguy}> 
      <img className="shoplogo" src={logo} alt={"logo"} style={{ height: 0, flex: 1, width: undefined, padding: 0 }}/>
-      <h2 className="shoptitle">The Fit Life Project</h2>
+      <h2 className="shoptitle">The FitLife Project</h2>
     </Hero>
     <Container style={{ marginTop: 40 }}>
       <Row className="text-center2"><h1>Objectives</h1> </Row>
