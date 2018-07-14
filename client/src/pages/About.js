@@ -13,6 +13,7 @@ import tracker from "../images/tracker.png";
 import bald from "./bald.jpg";
 import maria from "../images/maria.gif";
 import jump from "../images/jump.png";
+import { Link } from "react-router-dom";
 
 
 
@@ -25,11 +26,11 @@ const About = () => (
       <h2 className="hometitle">Get Healthy.  Feel Good.</h2>
     </Hero>   
     <Container className="container" style={{ marginTop: 40 }}>   
-        <Row className="text-center"><h1 className="firstline">Welcome to Fit Life!</h1></Row>
+        <Row className="text-center"><h1 className="firstline">Welcome to FitLife!</h1></Row>
       <Row>
         <Col size="md-12">
         <p>
-          At Fit Life, our philosophy is simple. The Fit Life Philosophy is simple. we believe a healthy body makes for a healthier....  Nourish. Train. Monitor.Create excellence. Easily.
+          At FitLife, our philosophy is simple. The Fit Life Philosophy is simple. we believe a healthy body makes for a healthier....  Nourish. Train. Monitor.Create excellence. Easily.
           Monitor, Understand, Optimize
           Optimize key aspects of your athletes’ preparation 
           and keep them fit, healthy, happy, and ready to win. Cost-effectively. From youth to pro.
@@ -50,7 +51,7 @@ const About = () => (
           Engage
           </p>
           </Container> */}
- <h1 className="flfeatures">Fit Life Features</h1>
+ <h1 className="flfeatures">FitLife Features</h1>
       <Container style={{ marginTop: 100 }}>    
       <Row> 
        <Col id="teamcol" size="md-4">
@@ -62,7 +63,7 @@ const About = () => (
         <Col id="teamcol" size="md-4">
          <img className="pic" src={recipes} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
           <p className="name">RECIPE FINDER</p>
-          <p className="explain">Search For Recipes That <br />Complement A Fit Life </p>
+          <p className="explain">Search For Recipes That <br />Complement A FitLife </p>
           <hr className="hrabout" />
         </Col>
        <Col id="teamcol" size="md-4">
@@ -74,12 +75,12 @@ const About = () => (
         <Col id="teamcol" size="md-4">
        <img className="pic" src={maria} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
           <p className="name">PHOTO PROGRESSION</p>
-          <p className="explain">Upload Photos & Chronicle <br />Your Fit Life Progress</p>
+          <p className="explain">Upload Photos & Chronicle <br />Your FitLife Progress</p>
           <hr />
         </Col>    
        <Col id="teamcol" size="md-4">
        <img className="pic" src={shop} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
-       <p className="name">SHOP FIT LIFE</p>
+       <p className="name">SHOP FITLIFE</p>
        <p className="explain">Food Made With <br />Simple, Wholesome Ingredients</p>
           <hr />
         </Col>
@@ -93,8 +94,8 @@ const About = () => (
     </Container> 
 
     <Container>
-            <Row className="text-center"><h2 className="hey">Reach Your Fit Life Potential!</h2>      
-          <button className="gsbtn" onClick={this.onSignUp}>GET STARTED NOW</button> 
+            <Row className="text-center"><h2 className="hey">Reach Your FitLife Potential!</h2>      
+          <button className="gsbtn" onClick={this.onSignUp}><Link className="navbar-brand" to="/signin">START YOUR FITLIFE NOW!</Link></button>    
       </Row>    
       </Container>
   </div> 

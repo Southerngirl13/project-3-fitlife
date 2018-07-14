@@ -12,6 +12,7 @@ import Dashcard from "../components/Dashcard";
 
 
 
+
 const Dashboard = (props) => (
 
     <div>
@@ -23,7 +24,7 @@ const Dashboard = (props) => (
         <Container style={{ marginTop: 30 }}>
             <Row>
                 <Col size="md-12">
-                    <h1 className="herotitle1">Hi Kim{props.firstName}.</h1><h1 className="welcome">Welcome to Fit Life!</h1>
+                    <h1 className="herotitle1">Hi Kim{props.firstName}.</h1><h1 className="welcome">Welcome to FitLife!</h1>
                     <hr className="hr-top" />
                     <p className="titletop">This is where your customized programs live.</p>
                     <p className="subtitle">Simply click on what you want to access. </p>
@@ -37,7 +38,7 @@ const Dashboard = (props) => (
             <hr className="hr-bottom" />
             <h4 className="h4quote">And Kim,{props.firstName}</h4>
             <p className="pquote">Be Strong Today. You never know who you're inspiring.</p>
-            <p className="signoff">In Good Health,<br />Fit Life</p>
+            <p className="signoff">In Good Health,<br />FitLife</p>
             <Row>
             <Col size="md-12">
          <img className="dashlogo2" src={logo} alt={"maria"} style={{ height: undefined, flex: 1, width: 80, padding: 0 }} />
