@@ -27,7 +27,7 @@ class Videogrid extends React.Component {
 };
 
 _onReady(event) {
-    event.target.playVideo();
+  event.target.pauseVideo();
 }
 };
   

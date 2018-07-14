@@ -11,7 +11,7 @@ class Video extends React.Component {
   
       opacity: '0.5',
       playerVars: { // https://developers.google.com/youtube/player_parameters
-        autoplay: 1,
+        autoplay: 0,
         'controls': 0,
         loop: 1
       }
@@ -27,7 +27,7 @@ class Video extends React.Component {
 };
 
 _onReady(event) {
-    event.target.playVideo();
+    event.target.pauseVideo();
 }
 };
   
