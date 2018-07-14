@@ -5,12 +5,13 @@ import Contact from "./pages/Contact";
 import Dashboard from "./pages/Dashboard";
 import KJS from "./pages/KJS";
 import Shop from "./pages/Shop";
-import Blog from "./components/Blog";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import SignIn from "./components/SignIn";
 import Recipes from "./pages/Recipes";
+import Videopage from "./pages/Videopage";
+
 
 
 
@@ -34,9 +35,9 @@ const App = () => (
        <Route exact path="/dashboard" component={Dashboard} /> 
        <Route exact path="/kjs" component={KJS} /> 
        <Route exact path="/shop" component={Shop} /> 
-       <Route exact path="/blog" component={Blog} /> 
        <Route exact path="/recipes" component={Recipes} />
-       {/* <Route exact path="/recipes" component={Recipes} />  */}
+       <Route exact path="/videopage" component={Videopage} />
+   
       </Wrapper>
       <Footer />
     </div>

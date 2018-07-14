@@ -26,7 +26,10 @@ const Shop = () => (
         <hr className="shophr"/>
         <Row className="text-center"><h2 className="hey">Shop All Items</h2>
       
-            <button className="gsbtn" onClick={this.onSignUp}>START SHOPPING</button>
+            <button className="gsbtn" onClick={this.onSignUp}><a href="https://fitlifestore.herokuapp.com/" target="_blank" rel="noopener noreferrer">START SHOPPING</a></button>
+         
+      
+
         </Row>
     </div>
 );
