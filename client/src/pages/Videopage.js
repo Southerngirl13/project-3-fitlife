@@ -3,7 +3,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Video from "../components/Video";
 import Col from "../components/Col";
-
+import Videogrid from "../components/Videogrid";
 
 
 const Videopage = () => (
@@ -27,7 +27,18 @@ const Videopage = () => (
             <Video />
             </Col>
             </Row>
-  
+            <Row>
+            <Col size="md-12">
+            <Videogrid />
+            <Videogrid />
+            </Col>
+            </Row>
+            <Row>
+            <Col size="md-12">
+            <Videogrid />
+            <Videogrid />
+            </Col>
+            </Row>
         </Container>
     
 

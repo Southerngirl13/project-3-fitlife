@@ -30,11 +30,9 @@ const About = () => (
       <Row>
         <Col size="md-12">
         <p>
-          At FitLife, our philosophy is simple. The Fit Life Philosophy is simple. we believe a healthy body makes for a healthier....  Nourish. Train. Monitor.Create excellence. Easily.
-          Monitor, Understand, Optimize
-          Optimize key aspects of your athletes’ preparation 
-          and keep them fit, healthy, happy, and ready to win. Cost-effectively. From youth to pro.
-          Engage
+          At FitLife, our philosophy is simple. The Fit Life Philosophy is simple. we believe a healthy body makes for a healthier
+          Optimize key aspects of your athletes’ preparation and keep them fit, healthy, happy, and ready to win. Cost-effectively. 
+       
           </p>
         </Col>
       </Row> 
@@ -86,7 +84,7 @@ const About = () => (
         </Col>
        <Col id="teamcol" size="md-4">
        <img className="pic" src={jump} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
-          <p className="name">WORKOUT LOGGING</p>
+          <p className="name">WORKOUT LOG</p>
           <p className="explain">Plan, Organize & Log <br />Your Daily Workouts</p>
           <hr />
         </Col>    
