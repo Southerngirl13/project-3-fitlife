@@ -93,7 +93,7 @@ class AssessmentForm extends Component {
             
             <Container fluid>
                 <Row>
-                    <Col class="assessmentForm" size="md-6 sm-12">
+                    <Col className="assessmentForm" size="md-6 sm-12">
                         <h3>Complete Initial Assessment Form Below:</h3>
                         <form>
                             <Input
@@ -150,7 +150,7 @@ class AssessmentForm extends Component {
                         </form>
                     </Col>
                     <Col size="md-6 sm-12">
-                        <div class="assessmentResults">
+                        <div className="assessmentResults">
                         <h3>Completed Assessment:</h3>        {this.state.assessment.length ? (
                             <List>
                                 {this.state.assessment.map(assessment => (
@@ -168,6 +168,20 @@ class AssessmentForm extends Component {
                     </Col>
                 </Row>
             </Container>
+
+<Container>
+    <Row>
+    
+  <div>
+    <iframe src="https://bmicalculatorusa.com/widgets/widget.php?t=550x480" width="550" height="480" frameBorder="0"></iframe>
+          
+      </div>
+
+      </Row>
+
+      </Container>
+
+
             </div>
         );
     }
