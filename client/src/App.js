@@ -21,7 +21,6 @@ import Blog from "./components/Blog";
 
 
 
-
 const App = () => (
   <Router>
     <div>
