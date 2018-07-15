@@ -101,6 +101,18 @@ const Practice = () => (
         </Col>
       </Row>
     </ Container>
+
+
+
+  <div>
+    <iframe src="https://bmicalculatorusa.com/widgets/widget.php?t=550x480" width="550" height="480" frameBorder="0"></iframe>
+    
+        
+      </div>
+
+
+
+
     <Container>
       <Row className="text-center"><h2 className="hey"></h2>
         <button className="gsbtn" onClick={this.onSignUp}><Link className="navbar-brand" to="/dashboard">BACK TO DASHBOARD</Link></button>
