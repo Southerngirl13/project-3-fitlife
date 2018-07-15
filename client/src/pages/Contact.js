@@ -77,6 +77,10 @@ const Contact = () => (
           <hr className="memberhr"/>
         </Col>      
       </Row>
+      <Row>
+      <p>Special thanks to the following instructors and TA's for all their help:</p>
+
+          </Row>
     </Container>
   </div>
 );
