@@ -3,7 +3,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 import UploadImage from "../components/UploadImage/UploadImage"
-
+import { Link } from "react-router-dom";
 
 
 const Photolog = () => (
@@ -19,7 +19,11 @@ const Photolog = () => (
       </Row> 
       
    </Container>
- 
+   <Container>
+            <Row className="text-center"><h2 className="hey"></h2>      
+          <button className="gsbtn" onClick={this.onSignUp}><Link className="navbar-brand" to="/dashboard">BACK TO DASHBOARD</Link></button>    
+      </Row>    
+      </Container>
          </div> 
 );
 
