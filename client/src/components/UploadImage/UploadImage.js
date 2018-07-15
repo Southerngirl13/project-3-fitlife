@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import "./ImageUpload.css";
+import React from "react";
+import "./UploadImage.css";
 
 class UploadImage extends React.Component {
     constructor(props) {
@@ -33,7 +33,8 @@ class UploadImage extends React.Component {
       let {imagePreviewUrl} = this.state;
       let $imagePreview = null;
       if (imagePreviewUrl) {
-        $imagePreview = (<img src={imagePreviewUrl} />);
+        $imagePreview = (<img className="CC" alt="CC"src={imagePreviewUrl} />);
+        // $imagePreview = (<img src={imagePreviewUrl} />);
       } else {
         $imagePreview = (<div className="previewText">Upload an Image</div>);
       }
