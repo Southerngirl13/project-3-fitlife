@@ -29,12 +29,11 @@ const Recipes = () => (
                     <SearchForm />
                     <br />
                     <br />
-               
                 </Col>
             </Row>
             <Row>
                 <Col id="teamcol" size="md-12">
-                    <img className="pic" src={shakerecipes} alt={"maria"} style={{ height: undefined, flex: 1, width: 1060, padding: 0 }} />
+                    <img src={shakerecipes} alt={"maria"} style={{ height: undefined, flex: 1, width: 1060, padding: 0 }} />
                     <br />
                     <br />
                     <br />
