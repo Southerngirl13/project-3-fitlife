@@ -4,6 +4,7 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 import shakerecipes from "./shakerecipes.png";
 import SearchForm from "../components/SearchForm";
+import { Link } from "react-router-dom";
 
 
 const Recipes = () => (
@@ -44,14 +45,20 @@ const Recipes = () => (
         </Container>
 <Row>
          <button>
-         <p><a href="https://developer.edamam.com/" target="_blank" rel="noopener noreferrer">Powered by EDAMAM<i className="fa fa-external-link"></i></a></p>
-      
+         <p><a href="https://developer.edamam.com/" target="_blank" rel="noopener noreferrer">Powered by EDAMAM<i className="fa fa-external-link"></i></a></p>  
       </button> 
-      
       </Row>
+
+ <Container>
+            <Row className="text-center"><h2 className="hey"></h2>      
+          <button className="gsbtn" onClick={this.onSignUp}><Link className="navbar-brand" to="/dashboard">BACK TO DASHBOARD</Link></button>    
+      </Row>    
+      </Container>
+
+
+
+
     </div>
 )
-
-
 
 export default Recipes;

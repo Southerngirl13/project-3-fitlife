@@ -39,6 +39,7 @@ button{
     background-color: #b7bec2;
     font-family: "HCo Verlag","CenturyGothic",AppleGothic,Gill Sans,Gill Sans MT,sans-serif;
     text-align: center;
+    align-content: center;
     margin-bottom: 10px;
 }
 
@@ -48,4 +49,8 @@ button{
 
 .silogo {
     background-color: cornflowerblue;
+}
+
+.CCbtn {
+    background-color: aqua;
 }

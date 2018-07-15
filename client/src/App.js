@@ -14,6 +14,7 @@ import Recipes from "./pages/Recipes";
 import Videopage from "./pages/Videopage";
 import Workout from "./pages/Workout";
 import Photolog from "./pages/Photolog";
+import Blog from "./components/Blog";
 
 
 
