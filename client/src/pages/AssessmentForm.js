@@ -168,6 +168,20 @@ class AssessmentForm extends Component {
                     </Col>
                 </Row>
             </Container>
+
+<Container>
+    <Row>
+    
+  <div>
+    <iframe src="https://bmicalculatorusa.com/widgets/widget.php?t=550x480" width="550" height="480" frameBorder="0"></iframe>
+          
+      </div>
+
+      </Row>
+
+      </Container>
+
+
             </div>
         );
     }
