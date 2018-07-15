@@ -4,8 +4,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Dashboard from "./pages/Dashboard";
 import AssessmentForm from "./pages/AssessmentForm";
-
 import Shop from "./pages/Shop";
+import Blog from "./components/Blog"
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
@@ -14,7 +14,6 @@ import Recipes from "./pages/Recipes";
 import Videopage from "./pages/Videopage";
 import Workout from "./pages/Workout";
 import Photolog from "./pages/Photolog";
-import Blog from "./components/Blog";
 
 
 
