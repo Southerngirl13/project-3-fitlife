@@ -12,3 +12,7 @@
     color: white;
     letter-spacing: 1px;
 }
+
+.textcenter, h3 {
+    text-align: center;
+}

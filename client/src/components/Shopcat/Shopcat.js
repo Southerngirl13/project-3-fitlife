@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import protein from './protein.jpg';
+import protein1 from './protein1.jpg';
 import granola from './granola.jpg';
 import bars from './bars.jpg';
 import butter from './butter.jpg';
@@ -14,10 +14,10 @@ class Shopcat extends Component {
             <div>
                 <div className="Shopcat section flex-container">
                     <div className="item">
-                        <img src={protein} alt={"protein powder"} className="thumb" />
+                        <img src={protein1} alt={"protein powder"} className="thumb" />
                         <div className="shopcat-overlay">
                             <div className="text">
-                                <h3 className="shopcath3">PROTEIN POWDERS</h3>
+                                <h3>PROTEIN POWDERS</h3>
                                 <p className="shopcopy">In an ideal world, we’d get all of the <br />important nutrients our bodies need, <br />including protein. But there are always <br />situations where it’s useful to have <br />protein shakes. It’s just convenient <br />and easy!”</p>
                                 <p className="shopcta"><a href="https://fitlifestore.herokuapp.com/" target="_blank" rel="noopener noreferrer">Shop Protein Powders<i className="fa fa-external-link"></i></a></p>
                             </div>

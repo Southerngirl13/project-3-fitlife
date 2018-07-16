@@ -47,19 +47,13 @@
     opacity: 1;
   }
 
-  .shopcath3, h3 {
-    /*background-color: aqua; */
-    font-size: 30px;
-    font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
-    letter-spacing: 1px;;
-    margin-top: 20px;
-  }
 
   .shopcopy{
     color: white;
 text-align: center;
     letter-spacing: .5px;
-    margin-top: 0px;
+    margin-top: -70px;
+    margin-bottom: 0px;
   } 
 
   .shopcta {
@@ -78,6 +72,10 @@ text-align: center;
     margin-right: 90px;
   }
 
+  .shoptitle, h3 {
+  
+    margin-top: 80px;
+  }
 
   /* This changed the placement of all the text on overlay - VIP */
   /* Took this out later and nothing happened?  */

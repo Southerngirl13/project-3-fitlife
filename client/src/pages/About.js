@@ -28,8 +28,8 @@ const About = () => (
     <Container className="container" style={{ marginTop: 40 }}>   
         <Row className="text-center"><h1 className="firstline">Welcome to FitLife!</h1></Row>
       <Row>
-        <Col size="md-12">
-        <p>
+        <Col className="notsamep" size="md-12">
+        <p className="notpcopy">
           At FitLife, our philosophy is simple. The Fit Life Philosophy is simple. we believe a healthy body makes for a healthier
           Optimize key aspects of your athletes’ preparation and keep them fit, healthy, happy, and ready to win. Cost-effectively. 
        

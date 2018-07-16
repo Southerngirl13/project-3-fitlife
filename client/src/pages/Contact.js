@@ -20,11 +20,10 @@ const Contact = () => (
       <h2 className="shoptitle">The FitLife Project</h2>
     </Hero>
     <Container style={{ marginTop: 40 }}>
-      <Row className="text-center2"><h1>Objectives</h1> </Row>
+      <Row className="text-center22"><h1>Objectives</h1> </Row>
       <Row>
-        <Col size="md-12">
-          <p>
-            Our app app is a web-based athlete management software solution. Upon registration and login, user’s arrive at their dashboard. The dashboard has several capabilities (“tabs”): </p>
+        <Col className="team" size="md-12">
+          
           <p>
             Baseline Photos/videos: ie before/after photo and user uploaded movement video (for example them performing an exercise movement)
             Goals/objectives: For example, “lose 20lbs before my wedding” or “Improve bench press to 225lbs”.
@@ -32,6 +31,7 @@ const Contact = () => (
             Workout History/Journal: This is a list of completed workouts with the date/time</p>     
         </Col>
       </Row>
+     
       <Row>
         <Col size="md-12">
           <h1 className="ourTeam">Our Team</h1>
@@ -78,7 +78,7 @@ const Contact = () => (
         </Col>      
       </Row>
       <Row>
-      <p>Special thanks to the following instructors and TA's for all their help:</p>
+      <p className="specialthanks">Special thanks to the following instructors and TA's for all their help:</p>
 
           </Row>
     </Container>
