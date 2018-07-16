@@ -5,7 +5,6 @@ import Contact from "./pages/Contact";
 import Dashboard from "./pages/Dashboard";
 import AssessmentForm from "./pages/AssessmentForm";
 import Shop from "./pages/Shop";
-import Blog from "./components/Blog"
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
@@ -38,7 +37,7 @@ const App = () => (
        <Route exact path="/dashboard" component={Dashboard} /> 
 
        <Route exact path="/shop" component={Shop} /> 
-       <Route exact path="/blog" component={Blog} /> 
+     
        <Route exact path="/assessmentform" component={AssessmentForm} /> 
        <Route exact path="/recipes" component={Recipes} />
        <Route exact path="/videopage" component={Videopage} />
