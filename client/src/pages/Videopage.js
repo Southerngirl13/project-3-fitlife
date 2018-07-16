@@ -10,8 +10,8 @@ import { Link } from "react-router-dom";
 const Videopage = () => (
     <div>
         <Container>
+        <h1 className="flfeatures">FitLife Video Workouts</h1>
 
-            <Row className="text-center"><h1 className="firstline">Fit Life Workouts<br /><br /></h1></Row>
             <Row>
                 <a
                     target="_blank"

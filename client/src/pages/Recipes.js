@@ -11,11 +11,8 @@ const Recipes = () => (
     <div>
        
         <Container>
-            <Row className="text-center"><h1 className="firstline">FitLife Recipe Search <br /><br /></h1></Row>
-            <Row >
-                <Col size="md-12">
-                </Col>
-            </Row>
+            <Row className="text-center"><h1 className="flfeatures">FitLife Recipe Search<br /></h1> </Row>
+           
         </Container>
 
         <Container>

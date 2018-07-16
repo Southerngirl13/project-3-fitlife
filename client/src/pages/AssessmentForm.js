@@ -90,11 +90,15 @@ class AssessmentForm extends Component {
                     {/* <img className="dashlogo" src={logo} alt={"logo"} style={{ height: 90, flex: 1, width: undefined, padding: 0 }} /> */}
                     {/* <h1 className="herotitle">Hi Kim. Welcome to Fit Life!</h1> */}
                 </Herodash>
-            
+          
+        <Container>
+            <Row className="text-center"><h1 className="flfeaturessam">FitLife Assessment Center<br /></h1> </Row>
+         
+        </Container>  
             <Container fluid>
                 <Row>
                     <Col className="assessmentForm" size="md-6 sm-12">
-                        <h3>Complete Initial Assessment Form Below:</h3>
+                        <h3>Complete Your Initial Assessment Below</h3>
                         <form>
                             <Input
                                 value={this.state.firstName}
@@ -172,11 +176,9 @@ class AssessmentForm extends Component {
 <Container>
     <Row>
     
-  <div>
-    <iframe src="https://bmicalculatorusa.com/widgets/widget.php?t=550x480" width="550" height="480" frameBorder="0"></iframe>
-          
+  <div className="BMI">
+    <iframe src="https://bmicalculatorusa.com/widgets/widget.php?t=550x480" width="550" height="480" frameBorder="0"></iframe>      
       </div>
-
       </Row>
 
       </Container>

@@ -36,7 +36,7 @@ class UploadImage extends React.Component {
         $imagePreview = (<img className="CC" alt="CC"src={imagePreviewUrl} />);
         // $imagePreview = (<img src={imagePreviewUrl} />);
       } else {
-        $imagePreview = (<div className="previewText">Upload an Image</div>);
+        $imagePreview = (<div className="previewText"></div>);
       }
   
       return (
@@ -45,9 +45,7 @@ class UploadImage extends React.Component {
             <input className="fileInput" 
               type="file" 
               onChange={(e)=>this._handleImageChange(e)} />
-            <button className="submitButton" 
-              type="submit" 
-              onClick={(e)=>this._handleSubmit(e)}>Upload Image</button>
+           
           </form>
           <div className="imgPreview">
             {$imagePreview}
