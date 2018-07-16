@@ -55,6 +55,7 @@
   /* This changed the placement of all the text on overlay - VIP */
 
   .text {
+    font-weight: 100;
     white-space: nowrap;
     color: white;
     color: #40484b;
@@ -66,21 +67,30 @@
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    /* background-color: pink; */
+
   }
 
   .blogh3, h3 {
-
     font-size: 30px;
     font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
-    font-weight: 150;
+    font-weight: 100;
     letter-spacing: -.5pt;
+    margin-top:0px;
+    margin-bottom: 50px;
+    line-height: 40px;
+  
   }
 
   .blogp {
     font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
     font-weight: 150;
     letter-spacing: -.5pt;
+  }
+
+
+  .pcopy2, p {
+    margin-top: -50px;
+    margin-bottom: 40px;
   }
 /* 
   .pcopy, p {

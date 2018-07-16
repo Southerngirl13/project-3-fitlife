@@ -10,6 +10,7 @@ import { Input, FormBtn } from "../components/Form";
 import API from "../utils/API";
 import { List, ListItem } from "../components/List";
 import { ControlLabel, FormControl, FormGroup } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 
 class AssessmentForm extends Component {
@@ -98,7 +99,7 @@ class AssessmentForm extends Component {
             <Container fluid>
                 <Row>
                     <Col className="assessmentForm" size="md-6 sm-12">
-                        <h3>Complete Your Initial Assessment Below</h3>
+                    <h3 className="fusam">Complete Your Initial Assessment Below</h3>
                         <form>
                             <Input
                                 value={this.state.firstName}
@@ -155,7 +156,7 @@ class AssessmentForm extends Component {
                     </Col>
                     <Col size="md-6 sm-12">
                         <div className="assessmentResults">
-                        <h3>Completed Assessment:</h3>        {this.state.assessment.length ? (
+                        <h3 className="fusam2">Completed Assessment:</h3>        {this.state.assessment.length ? (
                             <List>
                                 {this.state.assessment.map(assessment => (
                                     <div>
@@ -180,9 +181,13 @@ class AssessmentForm extends Component {
     <iframe src="https://bmicalculatorusa.com/widgets/widget.php?t=550x480" width="550" height="480" frameBorder="0"></iframe>      
       </div>
       </Row>
-
       </Container>
 
+ <Container>
+            <Row className="text-center"><h2 className="hey"></h2>      
+          <button className="gsbtn" onClick={this.onSignUp}><Link className="navbar-brand" to="/dashboard">BACK TO DASHBOARD</Link></button>    
+      </Row>    
+      </Container>
 
             </div>
         );

@@ -46,6 +46,7 @@
     color: #40484b;
     font-size: 22px;
     letter-spacing: 1px;
+    margin-top: 0px;
 }
 
 .membercopy, p {
@@ -58,7 +59,7 @@
 
 .explain {
     color: #91a2aa;
-    margin-top: -40px;
+    margin-top: -60px;
 }
 
 .pic {
@@ -67,4 +68,9 @@
 
 p {
     color: #6a777f;
+}
+
+.notpcopy {
+    /* background-color: aqua; */
+    margin-top: 15px;
 }
