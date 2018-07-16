@@ -30,25 +30,20 @@ const About = () => (
       <Row>
         <Col className="notsamep" size="md-12">
         <p className="notpcopy">
-          At FitLife, our philosophy is simple. The Fit Life Philosophy is simple. we believe a healthy body makes for a healthier
-          Optimize key aspects of your athletes’ preparation and keep them fit, healthy, happy, and ready to win. Cost-effectively. 
-       
+          At FitLife, our philosophy is simple.</p> 
+          <br />
+          <p>A healthy lifestyle involves both choice and action. <br />The choices you make each day, 
+          and the actions you take on those choices, can lead to a healthier lifestyle.<br /> Making positive choices in the areas of 
+          nutrition, training and monitoring your progress – and then acting on those choices – promotes a sense of better self-worth, happiness 
+          and overall well-being.
           </p>
+   
         </Col>
       </Row> 
       
    </Container>
  <Blog />
- {/* <Row className="text-center"><h1 className="firstline">(more explainer text here)</h1></Row>
- <Container>
- <p>
-          At Fit Life, our philosophy is simple. The Fit Life Philosophy is simple. we believe a healthy body makes for a healthier....  Nourish. Train. Monitor.Create excellence. Easily.
-          Monitor, Understand, Optimize
-          Optimize key aspects of your athletes’ preparation 
-          and keep them fit, healthy, happy, and ready to win. Cost-effectively. From youth to pro.
-          Engage
-          </p>
-          </Container> */}
+ 
  <h1 className="flfeatures">FitLife Features</h1>
       <Container style={{ marginTop: 100 }}>    
       <Row> 
@@ -79,7 +74,7 @@ const About = () => (
        <Col id="teamcol" size="md-4">
        <img className="pic" src={shop} alt={"maria"} style={{ height: undefined, flex: 1, width: 280, padding: 0 }} />
        <p className="name">SHOP FITLIFE</p>
-       <p className="explain">Food Made With <br />Simple, Wholesome Ingredients</p>
+       <p className="explain">Enjoy Savings & Special <br />Member Offers On FitLife Products</p>
           <hr />
         </Col>
        <Col id="teamcol" size="md-4">

@@ -2,7 +2,12 @@ import React, { Component } from 'react';
 import nourish1 from './nourish1.jpg';
 import "./Dashcard.css";
 import { Link } from "react-router-dom";
-
+import uploadphotos from './uploadphotos.jpg';
+import workoutlogs from './workoutlogs.jpg';
+import workoutvideos from './workoutvideos.jpg';
+import trackingtools from './trackingtools.jpg';
+import recipefinder from './recipefinder.jpg';
+import shopfitlife from './shopfitlife.jpg';
 
 class Shopcat extends Component {
     render() {
@@ -10,7 +15,7 @@ class Shopcat extends Component {
             <div>
                 <div className="Shopcat section flex-container">
                     <div className="item">
-                        <img src={nourish1} alt={"protein powder"} className="thumb" />
+                        <img src={trackingtools} alt={"protein powder"} className="thumb" />
                         <div className="shopcat-overlay">
                             <div className="text">
                                 {/* <h3 className="shopcath3">TRACKING TOOLS</h3> */}
@@ -21,7 +26,7 @@ class Shopcat extends Component {
                     </div>
 
                     <div className="item">
-                        <img src={nourish1} alt={"shakes"} className="thumb" />
+                        <img src={recipefinder} alt={"shakes"} className="thumb" />
                         <div className="shopcat-overlay">
                             <div className="text">
                                 {/* <h3>RECIPE FINDER</h3>
@@ -32,7 +37,7 @@ class Shopcat extends Component {
                     </div>
 
                     <div className="item">
-                        <img src={nourish1} alt={"granola"} className="thumb" />
+                        <img src={workoutvideos} alt={"granola"} className="thumb" />
                         <div className="shopcat-overlay">
                             <div className="text">
                                 {/* <h3>WORKOUT VIDEOS</h3>
@@ -42,7 +47,7 @@ class Shopcat extends Component {
                         </div>
                     </div>
                     <div className="item">
-                        <img src={nourish1} alt={"granola"} className="thumb" />
+                        <img src={uploadphotos} alt={"granola"} className="thumb" />
                         <div className="shopcat-overlay">
                             <div className="text">
                                 {/* <h3>PHOTO PROGRESSION</h3>
@@ -52,7 +57,7 @@ class Shopcat extends Component {
                         </div>
                     </div>
                     <div className="item">
-                        <img src={nourish1} alt={"granola"} className="thumb" />
+                        <img src={shopfitlife} alt={"granola"} className="thumb" />
                         <div className="shopcat-overlay">
                             <div className="text">
                                 {/* <h3>SHOP FIT LIFE</h3>
@@ -64,7 +69,7 @@ class Shopcat extends Component {
                     </div>
 
                    <div className="item">
-                        <img src={nourish1} alt={"granola"} className="thumb" />
+                        <img src={workoutlogs} alt={"granola"} className="thumb" />
                         <div className="shopcat-overlay">
                             <div className="text">
                                 {/* <h3>PHOTO PROGRESSION</h3>
