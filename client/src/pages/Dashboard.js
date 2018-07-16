@@ -10,9 +10,6 @@ import Dashcard from "../components/Dashcard";
 
 
 
-
-
-
 const Dashboard = (props) => (
 
     <div>
@@ -28,6 +25,7 @@ const Dashboard = (props) => (
                     <hr className="hr-top" />
                     <p className="titletop">This is where your customized programs live.</p>
                     <p className="subtitle">Simply click on what you want to access. </p>
+                    <p className="firstime"><b>TIP:</b>  If you're a first time user, start with the Assessment Form and begin tracking your progress today.</p>
                 </Col>
             </Row>
         </ Container>
@@ -37,7 +35,7 @@ const Dashboard = (props) => (
            
             <hr className="hr-bottom" />
             <h4 className="h4quote">And Kim,{props.firstName}</h4>
-            <p className="pquote">Be Strong Today. You never know who you're inspiring.</p>
+            <p className="pquote">Be Strong. You never know who you're inspiring.</p>
             <p className="signoff">In Good Health,<br />FitLife</p>
             <Row>
             <Col size="md-12">

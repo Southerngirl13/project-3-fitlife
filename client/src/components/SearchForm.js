@@ -32,7 +32,7 @@ const SearchForm = props => (
         Search
       </button> */}
       <button>
-      <a href="https://www.edamam.com/recipes/protein%2520shake#page12" target="_blank" rel="noopener noreferrer">Find Recipes<i className="fa fa-external-link"></i></a>
+      <a href="https://www.edamam.com/recipes/protein+shake" target="_blank" rel="noopener noreferrer">Find Recipes<i className="fa fa-external-link"></i></a>
       </button>
       
     </div>

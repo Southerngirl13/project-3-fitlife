@@ -39,21 +39,16 @@ const Recipes = () => (
             </Row>
 
         </Container>
-<Row>
-         <button>
+<Row>       
          <p><a href="https://developer.edamam.com/" target="_blank" rel="noopener noreferrer">Powered by EDAMAM<i className="fa fa-external-link"></i></a></p>  
-      </button> 
-      </Row>
+       </Row>
 
  <Container>
-            <Row className="text-center"><h2 className="hey"></h2>      
+            <Row className="text-center">  
           <button className="gsbtn" onClick={this.onSignUp}><Link className="navbar-brand" to="/dashboard">BACK TO DASHBOARD</Link></button>    
       </Row>    
       </Container>
-
-
-
-
+      
     </div>
 )
 
