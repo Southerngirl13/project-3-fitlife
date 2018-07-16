@@ -18,7 +18,8 @@ class Shopcat extends Component {
                         <div className="shopcat-overlay">
                             <div className="text">
                                 <h3>PROTEIN POWDERS</h3>
-                                <p className="shopcopy">In an ideal world, we’d get all of the <br />important nutrients our bodies need, <br />including protein. But there are always <br />situations where it’s useful to have <br />protein shakes. It’s just convenient <br />and easy!”</p>
+                                {/* <p className="shopcopy">In an ideal world, we’d get all of the <br />important nutrients our bodies need, <br />including protein. But there are always <br />situations where it’s useful to have <br />protein shakes. It’s just convenient <br />and easy!”</p>
+                                 */}
                                 <p className="shopcta"><a href="https://fitlifestore.herokuapp.com/" target="_blank" rel="noopener noreferrer">Shop Protein Powders<i className="fa fa-external-link"></i></a></p>
                             </div>
                         </div>
@@ -29,7 +30,8 @@ class Shopcat extends Component {
                         <div className="shopcat-overlay">
                             <div className="text">
                                 <h3>PROTEIN SHAKES</h3>
-                                <p className="shopcopy">In an ideal world, we’d get all of the <br />important nutrients our bodies need, <br />including protein. But there are always <br />situations where it’s useful to have  <br />protein shakes. It’s just convenient <br />and easy!”</p>
+                                {/* <p className="shopcopy">In an ideal world, we’d get all of the <br />important nutrients our bodies need, <br />including protein. But there are always <br />situations where it’s useful to have  <br />protein shakes. It’s just convenient <br />and easy!”</p>
+                                 */}
                                 <p className="shopcta"><a href="https://fitlifestore.herokuapp.com/" target="_blank" rel="noopener noreferrer">Shop Protein Shakes <i className="fa fa-external-link"></i></a></p>
                             </div>
                         </div>
@@ -40,7 +42,8 @@ class Shopcat extends Component {
                         <div className="shopcat-overlay">
                             <div className="text">
                                 <h3>GRANOLA</h3>
-                                <p className="shopcopy">Granola is an extremely popular breakfast <br />and snack food with a wealth of <br />health benefits, including its ability <br />to lower cholesterol, regulate digestion, <br />aid in weight loss, and improve heart health.</p>
+                                {/* <p className="shopcopy">Granola is an extremely popular breakfast <br />and snack food with a wealth of <br />health benefits, including its ability <br />to lower cholesterol, regulate digestion, <br />aid in weight loss, and improve heart health.</p>
+                                 */}
                                 <p className="shopcta"><a href="https://fitlifestore.herokuapp.com/" target="_blank" rel="noopener noreferrer">Shop Granola <i className="fa fa-external-link"></i></a></p>
                             </div>
                         </div>
@@ -50,7 +53,9 @@ class Shopcat extends Component {
                         <div className="shopcat-overlay">
                             <div className="text">
                                 <h3>GRANOLA BARS</h3>
-                                <p className="shopcopy">Granola bars make on-the-go <br />eating easy! At Fit Life, we're committed <br />to making sure they're also good for you.<br />Made with the freshest..</p>
+                                {/* <p className="shopcopy">Granola bars make on-the-go <br />eating easy! At Fit Life, we're committed <br />to making sure they're also good for you.<br />Made with the freshest..</p>
+                                 */}
+
                                 <p className="shopcta"><a href="https://fitlifestore.herokuapp.com/" target="_blank" rel="noopener noreferrer">Shop Granola Bars <i className="fa fa-external-link"></i></a></p>
                             </div>
                         </div>
@@ -61,7 +66,8 @@ class Shopcat extends Component {
                         <div className="shopcat-overlay">
                             <div className="text">
                                 <h3>NUTBUTTERS</h3>
-                                <p className="shopcopy">Start spreading the nut butter news! <br /> This superfood is packed with health perks, <br />from improving breast health <br />to lowering bad cholesterol. .</p>
+                                {/* <p className="shopcopy">Start spreading the nut butter news! <br /> This superfood is packed with health perks, <br />from improving breast health <br />to lowering bad cholesterol. .</p>
+                                 */}
                                 <p className="shopcta"><a href="https://fitlifestore.herokuapp.com/" target="_blank" rel="noopener noreferrer">Shop Nut Butters <i className="fa fa-external-link"></i></a></p>
                             </div>
                         </div>
@@ -72,7 +78,8 @@ class Shopcat extends Component {
                         <div className="shopcat-overlay">
                             <div className="text">
                                 <h3>SWEET TREATS</h3>
-                                <p className="shopcopy">We put natural sweetness into every...</p>
+                                {/* <p className="shopcopy">We put natural sweetness into every...<br /></p>
+                                 */}
                                 <p className="shopcta"><a href="https://fitlifestore.herokuapp.com/" target="_blank" rel="noopener noreferrer">Shop Treats<i className="fa fa-external-link"></i></a></p>
                             </div>
                         </div>
