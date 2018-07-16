@@ -1,6 +1,6 @@
 h3, h6 {
     text-align: center;
-    text-decoration: underline;
+margin-bottom: 50px;
 }
 
 .control-label {
@@ -8,7 +8,7 @@ h3, h6 {
 }
 
 .assessmentForm {
-    border: 3px solid #fac82d;
+    border: 1px solid #fac82d;
     padding: 3px;
     margin-top: 75px;
 }
@@ -25,10 +25,10 @@ button {
 }
 
 .assessmentResults {
-    border: 3px solid #fac82d;
+    border: 1px solid #fac82d;
     margin: auto;
     /* width: 50%; */
-    height: 600px;
+    height: 620px;
     padding: 30px;
     margin-top: 75px;
     margin-bottom: auto;
@@ -41,4 +41,19 @@ button {
 
 .iframe {
     text-align: center;
+}
+
+.flfeaturessam {
+
+    background-color: #fac82d;
+    text-align: center;
+    margin-top: 60px;
+    padding: 30px;
+    margin-bottom: 0px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.BMI {
+    margin-top: 50px;
 }
