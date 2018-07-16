@@ -1,4 +1,12 @@
-CC {
-background-color: aqua;
+.form {
 align-content: right;
+}
+
+.previewComponent {
+    height: 10%;
+}
+
+.imgPreview {
+    text-align: center;
+    margin-top: -400px;
 }

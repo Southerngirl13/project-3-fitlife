@@ -10,6 +10,7 @@ const Practice = () => (
   <div>
 
     <Container style={{ marginTop: 40 }}>
+    <h1 className="flfeatures">FitLife Workouts</h1>
       <Row>
         <Col size="md-12">
           <div class="panel panel-default">
@@ -101,16 +102,7 @@ const Practice = () => (
         </Col>
       </Row>
     </ Container>
-
-
-
-  <div>
-    <iframe src="https://bmicalculatorusa.com/widgets/widget.php?t=550x480" width="550" height="480" frameBorder="0"></iframe>
-          
-      </div>
-
-
-
+ 
 
     <Container>
       <Row className="text-center"><h2 className="hey"></h2>
