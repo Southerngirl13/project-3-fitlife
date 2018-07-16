@@ -70,26 +70,73 @@
 
   }
 
-  .blogh3, h3 {
+  .blogh31, h3 {
     font-size: 30px;
     font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
     font-weight: 100;
     letter-spacing: -.5pt;
-    margin-top:0px;
+    margin-top: 20px;
     margin-bottom: 50px;
     line-height: 40px;
-  
+
   }
 
-  .blogp {
+  .blogh32, h3 {
+    font-size: 30px;
+    font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 100;
+    letter-spacing: -.5pt;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    line-height: 40px;
+  }
+
+  .blogh33, h3 {
+    font-size: 30px;
+    font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 100;
+    letter-spacing: -.5pt;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    line-height: 40px;
+  }
+
+  .blogp1 {
     font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
     font-weight: 150;
     letter-spacing: -.5pt;
+    margin-top: -50px;
+  }
+
+  .blogp2 {
+    font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 150;
+    letter-spacing: -.5pt;
+    margin-top: -50px;
+  }
+
+  .blogp3 {
+    font-family: "HCo Verlag", "CenturyGothic", AppleGothic, Gill Sans, Gill Sans MT, sans-serif;
+    font-weight: 150;
+    letter-spacing: -.5pt;
+    margin-top: -60px;
+  }
+
+
+  .pcopy1, p {
+    margin-top: -80px;
+    margin-bottom: 40px;
+    margin-top: -70px;
   }
 
 
   .pcopy2, p {
-    margin-top: -50px;
+    margin-top: -70px;
+    margin-bottom: 40px;
+  }
+
+  .pcopy3, p {
+    margin-top: -70px;
     margin-bottom: 40px;
   }
 /* 

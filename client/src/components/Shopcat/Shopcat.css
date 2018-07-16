@@ -37,7 +37,8 @@
     width: 100%;
     opacity: 0;
     transition: .3s ease;
-    background-color: #fbc800;
+    /* background-color: #fbc800; */
+    background-color: white;
     
   }
 
