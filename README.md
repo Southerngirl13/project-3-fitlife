@@ -34,3 +34,14 @@ Finalize Components (wednesday) </br>
 Static page layout and design completed (wednesday) </br>
 Finalize react logic/Testing/troubleshooting (Thursday/Friday) </br>
 Deploy to Heroku -- MVP (Saturday) </br>
+
+#### TEAM
+
+* **Samantha Olvera** - *Assessment & Sign-In Pages/Front-End Development* - [Samantha Olvera](https://github.com/smolvera)
+* **Cecillia Medina** - *Authentication/Image Upload* - [Cecillia Medina]
+* **Kimberly Swoope** - *Front End/Recipe & Nutrition API pages* - [Kimberly Swoope](https://github.com/Southerngirl13)
+* **Pranav Udayakumar** - *E-Commerce Storefront/Sign-In Authentication Support* - [Pranav Udayakumar]
+* **Jamar Parham** - *React video Component* - [Jamar Parham](https://github.com/JParham23)
+* **Patrick Francis** - *Workout table* - [Patrick Francis](https://github.com/pfrancis113)
+
+
